@@ -55,7 +55,7 @@
     rootViewController.panningView = self.panningView;
     
     self.navController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    self.navController.navigationBar.tintColor = [UIColor darkGrayColor];
+    self.navController.navigationBar.tintColor = [UIColor colorWithRed:47/255.0f green:101/255.0f blue:176/255.0f alpha:1];
     [self addChildViewController:self.navController];
     
     self.navController.view.frame = self.choiceView.bounds;

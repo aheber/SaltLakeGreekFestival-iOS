@@ -9,6 +9,19 @@
 /* Begin PBXBuildFile section */
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
 		90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B7189917BDC25D004977E2 /* InformationController.xib */; };
+		917DD76217C012F0001CE2E9 /* apple-adhoc-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */; };
+		917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76317C012FE001CE2E9 /* apple-retina-114.png */; };
+		917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76817C1C08C001CE2E9 /* gflogo.png */; };
+		917DD76D17C1C5E5001CE2E9 /* MyColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DD76C17C1C5E5001CE2E9 /* MyColors.m */; };
+		917DD77217C1CFB0001CE2E9 /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76E17C1CFB0001CE2E9 /* blackButton@2x.png */; };
+		917DD77317C1CFB0001CE2E9 /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76F17C1CFB0001CE2E9 /* blackButtonHighlight@2x.png */; };
+		917DD77417C1CFB0001CE2E9 /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77017C1CFB0001CE2E9 /* blackButtonHighlight.png */; };
+		917DD77517C1CFB0001CE2E9 /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77117C1CFB0001CE2E9 /* blackButton.png */; };
+		917DD77B17C1D2ED001CE2E9 /* greyButton@2xpng in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77617C1D2ED001CE2E9 /* greyButton@2xpng */; };
+		917DD77C17C1D2ED001CE2E9 /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77717C1D2ED001CE2E9 /* greyButtonHighlight@2x.png */; };
+		917DD77D17C1D2ED001CE2E9 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */; };
+		917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77917C1D2ED001CE2E9 /* greyButtonHighlight.png */; };
+		917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77A17C1D2ED001CE2E9 /* greyButton.png */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
@@ -34,6 +47,20 @@
 		90B7189717BDC25D004977E2 /* InformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationController.h; sourceTree = "<group>"; };
 		90B7189817BDC25D004977E2 /* InformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
 		90B7189917BDC25D004977E2 /* InformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationController.xib; sourceTree = "<group>"; };
+		917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-adhoc-57.png"; sourceTree = "<group>"; };
+		917DD76317C012FE001CE2E9 /* apple-retina-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-114.png"; sourceTree = "<group>"; };
+		917DD76817C1C08C001CE2E9 /* gflogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gflogo.png; sourceTree = "<group>"; };
+		917DD76B17C1C5E5001CE2E9 /* MyColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyColors.h; sourceTree = "<group>"; };
+		917DD76C17C1C5E5001CE2E9 /* MyColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyColors.m; sourceTree = "<group>"; };
+		917DD76E17C1CFB0001CE2E9 /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		917DD76F17C1CFB0001CE2E9 /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		917DD77017C1CFB0001CE2E9 /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		917DD77117C1CFB0001CE2E9 /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		917DD77617C1D2ED001CE2E9 /* greyButton@2xpng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "greyButton@2xpng"; sourceTree = "<group>"; };
+		917DD77717C1D2ED001CE2E9 /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		917DD77917C1D2ED001CE2E9 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		917DD77A17C1D2ED001CE2E9 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		E22E07EE14BBA1AB00B002B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -48,14 +75,14 @@
 		E2955F8C14B7D15E003DDB4E /* ScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleController.h; sourceTree = "<group>"; };
 		E2955F8D14B7D15E003DDB4E /* ScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleController.m; sourceTree = "<group>"; };
 		E2955F8E14B7D15E003DDB4E /* ScheduleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleController.xib; sourceTree = "<group>"; };
-		E2C8E58F1497F62B00560D23 /* FeaturesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeaturesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C8E58F1497F62B00560D23 /* SLCGreekFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCGreekFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C8E5931497F62B00560D23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2C8E5951497F62B00560D23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2C8E5971497F62B00560D23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2C8E59B1497F62B00560D23 /* FeaturesExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeaturesExample-Info.plist"; sourceTree = "<group>"; };
+		E2C8E59B1497F62B00560D23 /* SLCGreekFestival-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLCGreekFestival-Info.plist"; sourceTree = "<group>"; };
 		E2C8E59D1497F62B00560D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2C8E59F1497F62B00560D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2C8E5A11497F62B00560D23 /* FeaturesExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeaturesExample-Prefix.pch"; sourceTree = "<group>"; };
+		E2C8E5A11497F62B00560D23 /* SLCGreekFestival-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLCGreekFestival-Prefix.pch"; sourceTree = "<group>"; };
 		E2C8E5A21497F62B00560D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2C8E5A31497F62B00560D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2C8E5C31497FDC600560D23 /* FoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodController.h; sourceTree = "<group>"; };
@@ -82,6 +109,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		917DD76A17C1C098001CE2E9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				917DD77617C1D2ED001CE2E9 /* greyButton@2xpng */,
+				917DD77717C1D2ED001CE2E9 /* greyButtonHighlight@2x.png */,
+				917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */,
+				917DD77917C1D2ED001CE2E9 /* greyButtonHighlight.png */,
+				917DD77A17C1D2ED001CE2E9 /* greyButton.png */,
+				917DD76E17C1CFB0001CE2E9 /* blackButton@2x.png */,
+				917DD76F17C1CFB0001CE2E9 /* blackButtonHighlight@2x.png */,
+				917DD77017C1CFB0001CE2E9 /* blackButtonHighlight.png */,
+				917DD77117C1CFB0001CE2E9 /* blackButton.png */,
+				917DD76817C1C08C001CE2E9 /* gflogo.png */,
+				E2955F7214B730AB003DDB4E /* photo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		E2955F6B14B728E4003DDB4E /* ViewDeck */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +141,8 @@
 		E2C8E5841497F62B00560D23 = {
 			isa = PBXGroup;
 			children = (
+				917DD76317C012FE001CE2E9 /* apple-retina-114.png */,
+				917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */,
 				E2C8E5991497F62B00560D23 /* SaltLakeGreekFestival-iOS */,
 				E2C8E5921497F62B00560D23 /* Frameworks */,
 				E2C8E5901497F62B00560D23 /* Products */,
@@ -105,7 +152,7 @@
 		E2C8E5901497F62B00560D23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2C8E58F1497F62B00560D23 /* FeaturesExample.app */,
+				E2C8E58F1497F62B00560D23 /* SLCGreekFestival.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,7 +171,7 @@
 		E2C8E5991497F62B00560D23 /* SaltLakeGreekFestival-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E2955F7214B730AB003DDB4E /* photo.png */,
+				917DD76A17C1C098001CE2E9 /* Images */,
 				E2C8E59A1497F62B00560D23 /* Supporting Files */,
 				E2C8E5B01497F94500560D23 /* vendor */,
 				E2C8E5A21497F62B00560D23 /* AppDelegate.h */,
@@ -133,6 +180,8 @@
 				E22E07EF14BBA1AB00B002B7 /* RootViewController.m */,
 				E22E07F014BBA1AB00B002B7 /* RootViewController.xib */,
 				E2C8E5C21497FDAE00560D23 /* Content */,
+				917DD76B17C1C5E5001CE2E9 /* MyColors.h */,
+				917DD76C17C1C5E5001CE2E9 /* MyColors.m */,
 			);
 			name = "SaltLakeGreekFestival-iOS";
 			path = FeaturesExample;
@@ -141,10 +190,10 @@
 		E2C8E59A1497F62B00560D23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2C8E59B1497F62B00560D23 /* FeaturesExample-Info.plist */,
+				E2C8E59B1497F62B00560D23 /* SLCGreekFestival-Info.plist */,
 				E2C8E59C1497F62B00560D23 /* InfoPlist.strings */,
 				E2C8E59F1497F62B00560D23 /* main.m */,
-				E2C8E5A11497F62B00560D23 /* FeaturesExample-Prefix.pch */,
+				E2C8E5A11497F62B00560D23 /* SLCGreekFestival-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -182,9 +231,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2C8E58E1497F62B00560D23 /* FeaturesExample */ = {
+		E2C8E58E1497F62B00560D23 /* SLCGreekFestival */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "FeaturesExample" */;
+			buildConfigurationList = E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "SLCGreekFestival" */;
 			buildPhases = (
 				E2C8E58B1497F62B00560D23 /* Sources */,
 				E2C8E58C1497F62B00560D23 /* Frameworks */,
@@ -194,9 +243,9 @@
 			);
 			dependencies = (
 			);
-			name = FeaturesExample;
+			name = SLCGreekFestival;
 			productName = FeaturesExample;
-			productReference = E2C8E58F1497F62B00560D23 /* FeaturesExample.app */;
+			productReference = E2C8E58F1497F62B00560D23 /* SLCGreekFestival.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +257,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Adriaenssen BVBA";
 			};
-			buildConfigurationList = E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "FeaturesExample" */;
+			buildConfigurationList = E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "SLCGreekFestival" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,7 +269,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2C8E58E1497F62B00560D23 /* FeaturesExample */,
+				E2C8E58E1497F62B00560D23 /* SLCGreekFestival */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +287,18 @@
 				E2955F9014B7D15E003DDB4E /* ScheduleController.xib in Resources */,
 				E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */,
 				90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */,
+				917DD76217C012F0001CE2E9 /* apple-adhoc-57.png in Resources */,
+				917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */,
+				917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */,
+				917DD77217C1CFB0001CE2E9 /* blackButton@2x.png in Resources */,
+				917DD77317C1CFB0001CE2E9 /* blackButtonHighlight@2x.png in Resources */,
+				917DD77417C1CFB0001CE2E9 /* blackButtonHighlight.png in Resources */,
+				917DD77517C1CFB0001CE2E9 /* blackButton.png in Resources */,
+				917DD77B17C1D2ED001CE2E9 /* greyButton@2xpng in Resources */,
+				917DD77C17C1D2ED001CE2E9 /* greyButtonHighlight@2x.png in Resources */,
+				917DD77D17C1D2ED001CE2E9 /* greyButton@2x.png in Resources */,
+				917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */,
+				917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +318,7 @@
 				E2955F8F14B7D15E003DDB4E /* ScheduleController.m in Sources */,
 				E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */,
 				90B7189A17BDC25E004977E2 /* InformationController.m in Sources */,
+				917DD76D17C1C5E5001CE2E9 /* MyColors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,12 +396,15 @@
 		E2C8E5AE1497F62B00560D23 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Littler (VLSXNL7227)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FeaturesExample/FeaturesExample-Prefix.pch";
-				INFOPLIST_FILE = "FeaturesExample/FeaturesExample-Info.plist";
+				GCC_PREFIX_HEADER = "FeaturesExample/SLCGreekFestival-Prefix.pch";
+				INFOPLIST_FILE = "FeaturesExample/SLCGreekFestival-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SLCGreekFestival;
+				PROVISIONING_PROFILE = "B5D4FBF3-B05C-46EF-A847-5AF9E1666DB7";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -349,11 +414,14 @@
 		E2C8E5AF1497F62B00560D23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Littler (VLSXNL7227)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FeaturesExample/FeaturesExample-Prefix.pch";
-				INFOPLIST_FILE = "FeaturesExample/FeaturesExample-Info.plist";
+				GCC_PREFIX_HEADER = "FeaturesExample/SLCGreekFestival-Prefix.pch";
+				INFOPLIST_FILE = "FeaturesExample/SLCGreekFestival-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SLCGreekFestival;
+				PROVISIONING_PROFILE = "B5D4FBF3-B05C-46EF-A847-5AF9E1666DB7";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -362,7 +430,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "FeaturesExample" */ = {
+		E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "SLCGreekFestival" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2C8E5AB1497F62B00560D23 /* Debug */,
@@ -371,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "FeaturesExample" */ = {
+		E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "SLCGreekFestival" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2C8E5AE1497F62B00560D23 /* Debug */,
