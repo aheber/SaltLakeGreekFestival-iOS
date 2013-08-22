@@ -1,4 +1,4 @@
 #import <UIKit/UIKit.h>
 @interface UIColor(MyColors)
-+(UIColor *)MyColor;
++(UIColor *)GFBlue;
 @end

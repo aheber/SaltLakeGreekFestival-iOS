@@ -44,7 +44,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return 3;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -88,7 +88,7 @@
     // Configure the cell0.0.0.0
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = indexPath.row == 0 ? @"Schedule" : indexPath.row == 1 ? @"Map" : indexPath.row == 2 ? @"Food" : @"Information";
+    cell.textLabel.text = indexPath.row == 0 ? @"Schedule" : indexPath.row == 1 ? @"Food" : @"Coupon";
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
@@ -105,16 +105,12 @@
                 self.navigationItem.title = @"Schedule";
             break;
         case 1:
-            self.viewDeckController.centerController = [[MapController alloc] initWithNibName:@"MapController" bundle:nil];
-                self.navigationItem.title = @"Map";
-            break;
-        case 2:
             self.viewDeckController.centerController = [[FoodController alloc] initWithNibName:@"FoodController" bundle:nil];
             self.navigationItem.title = @"Food";
             break;
-        case 3:
+        case 2:
             self.viewDeckController.centerController = [[InformationController alloc] initWithNibName:@"InformationController" bundle:nil];
-            self.navigationItem.title = @"Information";
+            self.navigationItem.title = @"Coupon";
             break;
     }
     [self showSelector];

@@ -8,11 +8,14 @@
 
 #import "InformationController.h"
 
+
 @interface InformationController ()
 
 @end
 
 @implementation InformationController
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -21,12 +24,17 @@
         // Custom initialization
     }
     return self;
+    
 }
 
 - (void)viewDidLoad
 {
+    
+    self.view.backgroundColor = [UIColor colorWithRed:47/255.0f green:101/255.0f blue:176/255.0f alpha:1];
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -24,6 +24,8 @@
 		917DD77D17C1D2ED001CE2E9 /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */; };
 		917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77917C1D2ED001CE2E9 /* greyButtonHighlight.png */; };
 		917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD77A17C1D2ED001CE2E9 /* greyButton.png */; };
+		917DD78217C5E53B001CE2E9 /* greekkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD78017C5E53B001CE2E9 /* greekkey.png */; };
+		917DD78317C5E53B001CE2E9 /* greekkey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD78117C5E53B001CE2E9 /* greekkey@2x.png */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
@@ -66,6 +68,8 @@
 		917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
 		917DD77917C1D2ED001CE2E9 /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
 		917DD77A17C1D2ED001CE2E9 /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		917DD78017C5E53B001CE2E9 /* greekkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greekkey.png; sourceTree = "<group>"; };
+		917DD78117C5E53B001CE2E9 /* greekkey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greekkey@2x.png"; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		E22E07EE14BBA1AB00B002B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				917DD78017C5E53B001CE2E9 /* greekkey.png */,
+				917DD78117C5E53B001CE2E9 /* greekkey@2x.png */,
 				917DD77617C1D2ED001CE2E9 /* greyButton@2xpng */,
 				917DD77717C1D2ED001CE2E9 /* greyButtonHighlight@2x.png */,
 				917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */,
@@ -324,6 +330,8 @@
 				917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */,
 				917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */,
 				90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */,
+				917DD78217C5E53B001CE2E9 /* greekkey.png in Resources */,
+				917DD78317C5E53B001CE2E9 /* greekkey@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
