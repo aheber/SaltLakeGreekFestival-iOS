@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		906A94B717C4896900BA1009 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 906A94B617C4896900BA1009 /* TBXML.m */; };
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
 		90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B7189917BDC25D004977E2 /* InformationController.xib */; };
+		90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90E863BB17C47E7D001AAC7F /* schedule.xml */; };
 		917DD76217C012F0001CE2E9 /* apple-adhoc-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */; };
 		917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76317C012FE001CE2E9 /* apple-retina-114.png */; };
 		917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76817C1C08C001CE2E9 /* gflogo.png */; };
@@ -44,9 +46,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		906A94B617C4896900BA1009 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = SOURCE_ROOT; };
+		906A94B817C4897700BA1009 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = SOURCE_ROOT; };
 		90B7189717BDC25D004977E2 /* InformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationController.h; sourceTree = "<group>"; };
 		90B7189817BDC25D004977E2 /* InformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
 		90B7189917BDC25D004977E2 /* InformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationController.xib; sourceTree = "<group>"; };
+		90E863BB17C47E7D001AAC7F /* schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schedule.xml; sourceTree = "<group>"; };
 		917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-adhoc-57.png"; sourceTree = "<group>"; };
 		917DD76317C012FE001CE2E9 /* apple-retina-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-114.png"; sourceTree = "<group>"; };
 		917DD76817C1C08C001CE2E9 /* gflogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gflogo.png; sourceTree = "<group>"; };
@@ -109,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90E863BA17C47E5F001AAC7F /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				90E863BB17C47E7D001AAC7F /* schedule.xml */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
+		90E863C117C48661001AAC7F /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				906A94B817C4897700BA1009 /* TBXML.h */,
+				906A94B617C4896900BA1009 /* TBXML.m */,
+			);
+			name = TBXML;
+			sourceTree = "<group>";
+		};
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +193,7 @@
 		E2C8E5991497F62B00560D23 /* SaltLakeGreekFestival-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				90E863BA17C47E5F001AAC7F /* xml */,
 				917DD76A17C1C098001CE2E9 /* Images */,
 				E2C8E59A1497F62B00560D23 /* Supporting Files */,
 				E2C8E5B01497F94500560D23 /* vendor */,
@@ -201,6 +224,7 @@
 		E2C8E5B01497F94500560D23 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				90E863C117C48661001AAC7F /* TBXML */,
 				E2955F6B14B728E4003DDB4E /* ViewDeck */,
 			);
 			path = vendor;
@@ -299,6 +323,7 @@
 				917DD77D17C1D2ED001CE2E9 /* greyButton@2x.png in Resources */,
 				917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */,
 				917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */,
+				90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +344,7 @@
 				E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */,
 				90B7189A17BDC25E004977E2 /* InformationController.m in Sources */,
 				917DD76D17C1C5E5001CE2E9 /* MyColors.m in Sources */,
+				906A94B717C4896900BA1009 /* TBXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

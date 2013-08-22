@@ -4,28 +4,26 @@
 //
 
 #import "ScheduleController.h"
+#import "TBXML.h"
 
 @implementation ScheduleController
 
 
-NSDictionary *schedule;
-NSArray *currentDay;
+NSMutableDictionary *schedule;
+NSMutableArray *currentDay;
+NSMutableArray *days;
+UIButton *lastButton;
 
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSArray *keys = [NSArray arrayWithObjects:@"Thursday", @"Friday", @"Saturday", @"Sunday", nil];
-    NSArray *thursday = [NSArray arrayWithObjects:@"5:00 PM - Ribbon Cutting", @"5:00 PM - Dionysios Dancers", @"6:00 PM - Olympian Dancers", @"6:30 PM - Athenian Dancers", @"7:00 PM - Parthenon Dancers", @"7:30 PM - Olympian Dancers", @"5:00 PM Dionysios Dancers", @"5:00 PM Dionysios Dancers", nil];
-    NSArray *friday = [NSArray arrayWithObjects:@"value3", @"value4", nil];
-    NSArray *saturday = [NSArray arrayWithObjects:@"value5", @"value6", nil];
-    NSArray *sunday = [NSArray arrayWithObjects:@"value7", @"value8", nil];
-    
-    NSArray *days = [NSArray arrayWithObjects:thursday, friday, saturday, sunday, nil];
-    schedule = [NSDictionary dictionaryWithObjects:days forKeys:keys];
-    currentDay = thursday;
+    schedule = [[NSMutableDictionary alloc]initWithCapacity:4];
+    [self loadSchedule];
+    currentDay = [schedule objectForKey:@"thursday"];
+    _thursdayBtn.enabled = NO;
+    lastButton = _thursdayBtn;
 }
 
 #pragma mark - Table view data source
@@ -44,21 +42,56 @@ NSArray *currentDay;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
-    // Configure the cell0.0.0.0
-    
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = [currentDay objectAtIndex: indexPath.row];
-    cell.textLabel.textColor = [UIColor blackColor];
+    cell.textLabel.text = [NSString stringWithFormat:@"%-8@ - %@",[[currentDay objectAtIndex: indexPath.row] objectAtIndex:1],[[currentDay objectAtIndex: indexPath.row] objectAtIndex:0]];
     return cell;
 }
 
 - (IBAction)clickButton:(id)sender {
     UIButton *pressed = (UIButton *)sender;
-    currentDay = [schedule objectForKey:pressed.currentTitle];
+    pressed.enabled = NO;
+    if(lastButton != nil)
+        lastButton.enabled = YES;
+    lastButton = pressed;
+    currentDay = [schedule objectForKey:[pressed.currentTitle lowercaseString]];
     [self.tableView reloadData];
+    [self.tableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:YES];
 }
 - (void)viewDidUnload {
     [self setTableView:nil];
+    [self setThursdayBtn:nil];
     [super viewDidUnload];
 }
+
+#pragma mark - XML Parser
+
+- (void)loadSchedule {
+    NSError *myError = nil;
+    TBXML *tbxml = [TBXML newTBXMLWithXMLFile:@"schedule" fileExtension:@"xml" error:&myError];
+    
+    currentDay = [[NSMutableArray alloc] init];
+    if (tbxml.rootXMLElement)
+        [self traverseElement:tbxml.rootXMLElement];
+}
+
+- (void) traverseElement:(TBXMLElement *)element {
+    do {
+        if (element->firstChild)
+            [self traverseElement:element->firstChild];
+        if ([[TBXML elementName:element] isEqualToString:@"event"]) {
+            [currentDay addObject:[NSArray arrayWithObjects:
+                                [TBXML valueOfAttributeNamed:@"name" forElement:element],
+                                [TBXML valueOfAttributeNamed:@"time" forElement:element],
+                                [TBXML valueOfAttributeNamed:@"location" forElement:element],
+                                [TBXML textForElement:element],nil]];
+        }
+        
+        if ([[TBXML elementName:element] isEqualToString:@"day"]) {
+            [days addObject:[[TBXML valueOfAttributeNamed:@"name" forElement:element] lowercaseString]];
+            [schedule setObject:currentDay forKey:[[TBXML valueOfAttributeNamed:@"name" forElement:element] lowercaseString]];
+            currentDay = [[NSMutableArray alloc] init];
+        }
+    } while ((element = element->nextSibling));
+}
+
 @end
