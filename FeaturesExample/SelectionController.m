@@ -38,8 +38,6 @@
     [self.viewDeckController toggleLeftViewAnimated:YES];
 }
 
-
-
 #pragma mark - Table view data source
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -55,7 +53,7 @@
     
     UIImage *myImage = [UIImage imageNamed:@"gflogo.png"];
 	UIImageView *imageView = [[UIImageView alloc] initWithImage:myImage];
-	imageView.frame = CGRectMake(10,10,300,100);
+    imageView.frame = CGRectMake(10,10,300,100);
     
     UILabel* label = [[UILabel alloc] initWithFrame:(CGRect) { 10, 0, 80, 100 }];
     label.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
