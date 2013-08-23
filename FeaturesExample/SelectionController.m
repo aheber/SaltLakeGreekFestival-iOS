@@ -23,7 +23,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
     self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:
-                                              [[UIBarButtonItem alloc] initWithTitle:@"Menu" style:UIBarButtonItemStyleBordered target:self action:@selector(showSelector)],
+                                              [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menubtn.png"] style:UIBarButtonItemStyleDone target:self action:@selector(showSelector)],
                                               nil];
     
     self.navigationItem.title = @"Schedule";
@@ -44,7 +44,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return 4;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
