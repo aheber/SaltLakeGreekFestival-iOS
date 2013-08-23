@@ -69,7 +69,8 @@ int padding;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return ([food count]+FOODPERROW-1)/FOODPERROW;
+    NSLog(@"FOOD COUNT %i, ROW COUNT %f", [food count], (float)[food count]/FOODPERROW);
+    return ceilf((float)[food count]/FOODPERROW);
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -77,11 +78,12 @@ int padding;
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-        UIImage *btnImage = nil;
-        for(int i=0; i<FOODPERROW;i++){
-            btnImage = [UIImage imageNamed:[[[food objectAtIndex:indexPath.row*2+i] objectAtIndex:0] lowercaseString]];
+    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    UIImage *btnImage = nil;
+    for(int i=0; i<FOODPERROW;i++){
+        if(([indexPath row]*FOODPERROW)+i<[food count]){
+            NSLog(@"INT %i",([indexPath row]*FOODPERROW)+i);
+            btnImage = [UIImage imageNamed:[[[food objectAtIndex:indexPath.row*FOODPERROW+i] objectAtIndex:0] lowercaseString]];
             
             UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
             [button addTarget:self
@@ -91,11 +93,12 @@ int padding;
             button.frame = CGRectMake(padding*2 + ((FOODIMGSIZE+padding)*i), padding/2, FOODIMGSIZE, FOODIMGSIZE);
             
             [button setImage:btnImage forState:UIControlStateNormal];
-            [button setTag:[indexPath row]*2+i];
+            [button setTag:([indexPath row]*FOODPERROW)+i];
             [cell addSubview:button];
         }
-        
     }
+    
+    
     
     // Configure the cell...
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
