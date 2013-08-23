@@ -44,6 +44,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIStatusBarHidden</key>
+	<false/>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleDefault</string>
 	<key>UIStatusBarTintParameters</key>
@@ -55,11 +57,11 @@
 			<key>TintColor</key>
 			<dict>
 				<key>Blue</key>
-				<real>0.61933869123458862</real>
+				<real>0.99839919805526733</real>
 				<key>Green</key>
-				<real>0.31896311044692993</real>
+				<real>0.43248516321182251</real>
 				<key>Red</key>
-				<real>0.15252979099750519</real>
+				<real>0.051268674433231354</real>
 			</dict>
 			<key>Translucent</key>
 			<false/>
