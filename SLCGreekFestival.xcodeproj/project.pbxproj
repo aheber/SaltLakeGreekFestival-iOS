@@ -227,7 +227,6 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				917DD79217C70815001CE2E9 /* button_normal.png */,
 				917DD78A17C6FEC7001CE2E9 /* menubtn.png */,
 				917DD78B17C6FEC7001CE2E9 /* menubtn@2x.png */,
@@ -235,7 +234,6 @@
 				917DD78517C6F271001CE2E9 /* navbar_bg@2x.png */,
 				917DD78017C5E53B001CE2E9 /* greekkey.png */,
 				917DD78117C5E53B001CE2E9 /* greekkey@2x.png */,
-=======
 				903A43AA17C70A4E0048B218 /* amigdalota.png */,
 				903A43AB17C70A4E0048B218 /* baklava.png */,
 				903A43AC17C70A4E0048B218 /* coke.png */,
@@ -271,7 +269,6 @@
 				903A43CA17C70A4E0048B218 /* tzatziki.png */,
 				903A43CB17C70A4E0048B218 /* yogurt.png */,
 				903A43CC17C70A4E0048B218 /* zions.png */,
->>>>>>> AnthonyDev
 				917DD77617C1D2ED001CE2E9 /* greyButton@2xpng */,
 				917DD77717C1D2ED001CE2E9 /* greyButtonHighlight@2x.png */,
 				917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */,
@@ -465,7 +462,6 @@
 				917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */,
 				917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */,
 				90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */,
-<<<<<<< HEAD
 				917DD78217C5E53B001CE2E9 /* greekkey.png in Resources */,
 				917DD78317C5E53B001CE2E9 /* greekkey@2x.png in Resources */,
 				917DD78617C6F271001CE2E9 /* navbar_bg.png in Resources */,
@@ -476,7 +472,6 @@
 				917DD79717C710AC001CE2E9 /* Default-568h@2x.png in Resources */,
 				917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */,
 				917DD79B17C710EC001CE2E9 /* Default.png in Resources */,
-=======
 				903A43CD17C70A4E0048B218 /* amigdalota.png in Resources */,
 				903A43CE17C70A4E0048B218 /* baklava.png in Resources */,
 				903A43CF17C70A4E0048B218 /* coke.png in Resources */,
@@ -513,7 +508,6 @@
 				903A43EE17C70A4E0048B218 /* yogurt.png in Resources */,
 				903A43EF17C70A4E0048B218 /* zions.png in Resources */,
 				903A43F117C70AE60048B218 /* food.xml in Resources */,
->>>>>>> AnthonyDev
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
