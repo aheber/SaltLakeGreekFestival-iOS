@@ -70,6 +70,9 @@
 		917DD79717C710AC001CE2E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79617C710AC001CE2E9 /* Default-568h@2x.png */; };
 		917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79817C710D9001CE2E9 /* Default@2x.png */; };
 		917DD79B17C710EC001CE2E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79417C7108C001CE2E9 /* Default.png */; };
+		917DD79E17C72CD7001CE2E9 /* FoodDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 917DD79D17C72CD6001CE2E9 /* FoodDisplay.m */; };
+		917DD7A017C72D42001CE2E9 /* FoodDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79F17C72D41001CE2E9 /* FoodDisplay.xib */; };
+		917DD7A217C72F60001CE2E9 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD7A117C72F60001CE2E9 /* button_back.png */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
@@ -158,6 +161,10 @@
 		917DD79417C7108C001CE2E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		917DD79617C710AC001CE2E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		917DD79817C710D9001CE2E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		917DD79C17C72CD6001CE2E9 /* FoodDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDisplay.h; sourceTree = "<group>"; };
+		917DD79D17C72CD6001CE2E9 /* FoodDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDisplay.m; sourceTree = "<group>"; };
+		917DD79F17C72D41001CE2E9 /* FoodDisplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDisplay.xib; sourceTree = "<group>"; };
+		917DD7A117C72F60001CE2E9 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_back.png; path = ../../../Assets/button_back.png; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		E22E07EE14BBA1AB00B002B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -227,6 +234,7 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				917DD7A117C72F60001CE2E9 /* button_back.png */,
 				917DD79217C70815001CE2E9 /* button_normal.png */,
 				917DD78A17C6FEC7001CE2E9 /* menubtn.png */,
 				917DD78B17C6FEC7001CE2E9 /* menubtn@2x.png */,
@@ -386,6 +394,9 @@
 				90B7189717BDC25D004977E2 /* InformationController.h */,
 				90B7189817BDC25D004977E2 /* InformationController.m */,
 				90B7189917BDC25D004977E2 /* InformationController.xib */,
+				917DD79C17C72CD6001CE2E9 /* FoodDisplay.h */,
+				917DD79D17C72CD6001CE2E9 /* FoodDisplay.m */,
+				917DD79F17C72D41001CE2E9 /* FoodDisplay.xib */,
 			);
 			name = Content;
 			sourceTree = "<group>";
@@ -508,6 +519,8 @@
 				903A43EE17C70A4E0048B218 /* yogurt.png in Resources */,
 				903A43EF17C70A4E0048B218 /* zions.png in Resources */,
 				903A43F117C70AE60048B218 /* food.xml in Resources */,
+				917DD7A017C72D42001CE2E9 /* FoodDisplay.xib in Resources */,
+				917DD7A217C72F60001CE2E9 /* button_back.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +542,7 @@
 				90B7189A17BDC25E004977E2 /* InformationController.m in Sources */,
 				917DD76D17C1C5E5001CE2E9 /* MyColors.m in Sources */,
 				906A94B717C4896900BA1009 /* TBXML.m in Sources */,
+				917DD79E17C72CD7001CE2E9 /* FoodDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
