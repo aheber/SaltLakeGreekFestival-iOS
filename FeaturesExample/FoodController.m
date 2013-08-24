@@ -4,6 +4,7 @@
 //
 
 #import "FoodController.h"
+#import "FoodDisplay.h"
 #import "IIViewDeckController.h"
 #import "TBXML.h"
 
@@ -49,6 +50,15 @@ int padding;
 #pragma mark - UIResponder
 
 -(void)imageTouched:(id)sender {
+        UIButton *button = (UIButton *)sender;
+        //Initialize the view controller
+        FoodDisplay *fd = [[FoodDisplay alloc]initWithNibName:@"FoodDisplay" bundle:nil];
+        fd.delegate = self;
+        fd.food = [food objectAtIndex:[button tag]];
+        fd.modalPresentationStyle =  UIModalTransitionStyleCrossDissolve;
+        [self presentModalViewController:fd animated:YES];
+    
+    /*
     UIButton *button = (UIButton *)sender;
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Today's Entry Complete"
                                                     message:[NSString stringWithFormat:@"Tag %d",[button tag]]
@@ -56,8 +66,14 @@ int padding;
                                           cancelButtonTitle:@"OK"
                                           otherButtonTitles: nil];
     [alert show];
+     */
 }
 
+- (void)foodDisplayDidFinish:(FoodDisplay*)foodDisplay {
+    // do whatever, then
+    // hide the modal view
+    [self dismissModalViewControllerAnimated:YES];
+}
 
 
 #pragma mark - Table view data source

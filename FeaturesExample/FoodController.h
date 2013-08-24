@@ -4,7 +4,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FoodDisplay.h"
 
-@interface FoodController : UITableViewController
+@interface FoodController : UITableViewController <FoodDisplayDelegate>
 
 @end
