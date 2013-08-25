@@ -42,6 +42,7 @@ UIButton *lastButton;
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
     }
     
+    cell.textLabel.font = [UIFont fontWithName:@"ArialMT" size:14];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.textLabel.text = [NSString stringWithFormat:@"%-8@ - %@",[[currentDay objectAtIndex: indexPath.row] objectAtIndex:1],[[currentDay objectAtIndex: indexPath.row] objectAtIndex:0]];
     return cell;

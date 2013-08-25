@@ -52,6 +52,9 @@
     [price setText:[food objectAtIndex:2]];
     [location setText:[food objectAtIndex:3]];
     [description setText:[food objectAtIndex:4]];
+    
+    [description sizeToFit];
+    
 }
 
 - (void)didReceiveMemoryWarning
