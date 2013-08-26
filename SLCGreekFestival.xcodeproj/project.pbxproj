@@ -49,6 +49,9 @@
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
 		90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B7189917BDC25D004977E2 /* InformationController.xib */; };
 		90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90E863BB17C47E7D001AAC7F /* schedule.xml */; };
+		912F996917CAF73100096555 /* galaktoboureko.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996617CAF73100096555 /* galaktoboureko.png */; };
+		912F996A17CAF73100096555 /* flogeres.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996717CAF73100096555 /* flogeres.png */; };
+		912F996B17CAF73100096555 /* diples.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996817CAF73100096555 /* diples.png */; };
 		917DD76217C012F0001CE2E9 /* apple-adhoc-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */; };
 		917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76317C012FE001CE2E9 /* apple-retina-114.png */; };
 		917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76817C1C08C001CE2E9 /* gflogo.png */; };
@@ -141,6 +144,9 @@
 		90B7189817BDC25D004977E2 /* InformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
 		90B7189917BDC25D004977E2 /* InformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationController.xib; sourceTree = "<group>"; };
 		90E863BB17C47E7D001AAC7F /* schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schedule.xml; sourceTree = "<group>"; };
+		912F996617CAF73100096555 /* galaktoboureko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaktoboureko.png; sourceTree = "<group>"; };
+		912F996717CAF73100096555 /* flogeres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flogeres.png; sourceTree = "<group>"; };
+		912F996817CAF73100096555 /* diples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diples.png; sourceTree = "<group>"; };
 		917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-adhoc-57.png"; sourceTree = "<group>"; };
 		917DD76317C012FE001CE2E9 /* apple-retina-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-114.png"; sourceTree = "<group>"; };
 		917DD76817C1C08C001CE2E9 /* gflogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gflogo.png; sourceTree = "<group>"; };
@@ -236,6 +242,9 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				912F996617CAF73100096555 /* galaktoboureko.png */,
+				912F996717CAF73100096555 /* flogeres.png */,
+				912F996817CAF73100096555 /* diples.png */,
 				917DD7A717C9888B001CE2E9 /* chicken.png */,
 				917DD7A817C9888B001CE2E9 /* button_back.png */,
 				917DD79217C70815001CE2E9 /* button_normal.png */,
@@ -525,6 +534,9 @@
 				9019588E17C85E4B00A8722A /* FoodDisplay.xib in Resources */,
 				917DD7A917C9888B001CE2E9 /* chicken.png in Resources */,
 				917DD7AA17C9888B001CE2E9 /* button_back.png in Resources */,
+				912F996917CAF73100096555 /* galaktoboureko.png in Resources */,
+				912F996A17CAF73100096555 /* flogeres.png in Resources */,
+				912F996B17CAF73100096555 /* diples.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
