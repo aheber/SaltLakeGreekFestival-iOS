@@ -39,7 +39,7 @@ int padding;
     [super viewDidLoad];
     
     int lCurrentWidth = self.view.frame.size.width;
-    padding = (lCurrentWidth- (FOODIMGSIZE*FOODPERROW))/(FOODPERROW+3);
+    padding = (lCurrentWidth- (FOODIMGSIZE*FOODPERROW))/(FOODPERROW+1);
     food = [[NSMutableArray alloc] init];
     [self loadFood];
     self.tableView.rowHeight = FOODIMGSIZE+padding;
@@ -50,22 +50,22 @@ int padding;
 #pragma mark - UIResponder
 
 -(void)imageTouched:(id)sender {
-        UIButton *button = (UIButton *)sender;
-        //Initialize the view controller
-        FoodDisplay *fd = [[FoodDisplay alloc]initWithNibName:@"FoodDisplay" bundle:nil];
-        fd.delegate = self;
-        fd.food = [food objectAtIndex:[button tag]];
-        fd.modalPresentationStyle =  UIModalTransitionStyleCrossDissolve;
-        [self presentModalViewController:fd animated:YES];
+    UIButton *button = (UIButton *)sender;
+    //Initialize the view controller
+    FoodDisplay *fd = [[FoodDisplay alloc]initWithNibName:@"FoodDisplay" bundle:nil];
+    fd.delegate = self;
+    fd.food = [food objectAtIndex:[button tag]];
+    fd.modalPresentationStyle =  UIModalTransitionStyleCrossDissolve;
+    [self presentModalViewController:fd animated:YES];
     
     /*
-    UIButton *button = (UIButton *)sender;
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Today's Entry Complete"
-                                                    message:[NSString stringWithFormat:@"Tag %d",[button tag]]
-                                                   delegate:nil
-                                          cancelButtonTitle:@"OK"
-                                          otherButtonTitles: nil];
-    [alert show];
+     UIButton *button = (UIButton *)sender;
+     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Today's Entry Complete"
+     message:[NSString stringWithFormat:@"Tag %d",[button tag]]
+     delegate:nil
+     cancelButtonTitle:@"OK"
+     otherButtonTitles: nil];
+     [alert show];
      */
 }
 
@@ -85,7 +85,6 @@ int padding;
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSLog(@"FOOD COUNT %i, ROW COUNT %f", [food count], (float)[food count]/FOODPERROW);
     return ceilf((float)[food count]/FOODPERROW);
 }
 
@@ -98,15 +97,14 @@ int padding;
     UIImage *btnImage = nil;
     for(int i=0; i<FOODPERROW;i++){
         if(([indexPath row]*FOODPERROW)+i<[food count]){
-            NSLog(@"INT %i",([indexPath row]*FOODPERROW)+i);
             btnImage = [UIImage imageNamed:[[[food objectAtIndex:indexPath.row*FOODPERROW+i] objectAtIndex:0] lowercaseString]];
             
             UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
             [button addTarget:self
                        action:@selector(imageTouched:)
              forControlEvents:UIControlEventTouchUpInside];
-            [button setTitle:@"Show View" forState:UIControlStateNormal];
-            button.frame = CGRectMake(padding*2 + ((FOODIMGSIZE+padding)*i), padding/2, FOODIMGSIZE, FOODIMGSIZE);
+            [button setTitle:[[food objectAtIndex:indexPath.row*FOODPERROW+i] objectAtIndex:1] forState:UIControlStateNormal];
+            button.frame = CGRectMake(padding + ((FOODIMGSIZE+padding)*i), padding/2, FOODIMGSIZE, FOODIMGSIZE);
             
             [button setImage:btnImage forState:UIControlStateNormal];
             [button setTag:([indexPath row]*FOODPERROW)+i];
