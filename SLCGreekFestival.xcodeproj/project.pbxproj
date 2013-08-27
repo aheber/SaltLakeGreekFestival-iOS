@@ -11,9 +11,6 @@
 		9019588E17C85E4B00A8722A /* FoodDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9019588C17C85E4B00A8722A /* FoodDisplay.xib */; };
 		903A43CD17C70A4E0048B218 /* amigdalota.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AA17C70A4E0048B218 /* amigdalota.png */; };
 		903A43CE17C70A4E0048B218 /* baklava.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AB17C70A4E0048B218 /* baklava.png */; };
-		903A43CF17C70A4E0048B218 /* coke.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AC17C70A4E0048B218 /* coke.png */; };
-		903A43D017C70A4E0048B218 /* crengland.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AD17C70A4E0048B218 /* crengland.png */; };
-		903A43D117C70A4E0048B218 /* ctrees.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AE17C70A4E0048B218 /* ctrees.png */; };
 		903A43D217C70A4E0048B218 /* dolmathes.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AF17C70A4E0048B218 /* dolmathes.png */; };
 		903A43D317C70A4E0048B218 /* fasolakia.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43B017C70A4E0048B218 /* fasolakia.png */; };
 		903A43D417C70A4E0048B218 /* feta.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43B117C70A4E0048B218 /* feta.png */; };
@@ -34,7 +31,6 @@
 		903A43E317C70A4E0048B218 /* pastaflora.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C017C70A4E0048B218 /* pastaflora.png */; };
 		903A43E417C70A4E0048B218 /* pastitsio.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C117C70A4E0048B218 /* pastitsio.png */; };
 		903A43E517C70A4E0048B218 /* pilafi.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C217C70A4E0048B218 /* pilafi.png */; };
-		903A43E617C70A4E0048B218 /* roofers.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C317C70A4E0048B218 /* roofers.png */; };
 		903A43E717C70A4E0048B218 /* salad.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C417C70A4E0048B218 /* salad.png */; };
 		903A43E817C70A4E0048B218 /* shadow.xml in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C517C70A4E0048B218 /* shadow.xml */; };
 		903A43E917C70A4E0048B218 /* souvlaki.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C617C70A4E0048B218 /* souvlaki.png */; };
@@ -43,7 +39,6 @@
 		903A43EC17C70A4E0048B218 /* tiropita.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43C917C70A4E0048B218 /* tiropita.png */; };
 		903A43ED17C70A4E0048B218 /* tzatziki.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43CA17C70A4E0048B218 /* tzatziki.png */; };
 		903A43EE17C70A4E0048B218 /* yogurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43CB17C70A4E0048B218 /* yogurt.png */; };
-		903A43EF17C70A4E0048B218 /* zions.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43CC17C70A4E0048B218 /* zions.png */; };
 		903A43F117C70AE60048B218 /* food.xml in Resources */ = {isa = PBXBuildFile; fileRef = 903A43F017C70AE60048B218 /* food.xml */; };
 		906A94B717C4896900BA1009 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 906A94B617C4896900BA1009 /* TBXML.m */; };
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
@@ -117,9 +112,6 @@
 		9019588C17C85E4B00A8722A /* FoodDisplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDisplay.xib; sourceTree = "<group>"; };
 		903A43AA17C70A4E0048B218 /* amigdalota.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = amigdalota.png; path = Images/amigdalota.png; sourceTree = "<group>"; };
 		903A43AB17C70A4E0048B218 /* baklava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baklava.png; path = Images/baklava.png; sourceTree = "<group>"; };
-		903A43AC17C70A4E0048B218 /* coke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = coke.png; path = Images/coke.png; sourceTree = "<group>"; };
-		903A43AD17C70A4E0048B218 /* crengland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crengland.png; path = Images/crengland.png; sourceTree = "<group>"; };
-		903A43AE17C70A4E0048B218 /* ctrees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ctrees.png; path = Images/ctrees.png; sourceTree = "<group>"; };
 		903A43AF17C70A4E0048B218 /* dolmathes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dolmathes.png; path = Images/dolmathes.png; sourceTree = "<group>"; };
 		903A43B017C70A4E0048B218 /* fasolakia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fasolakia.png; path = Images/fasolakia.png; sourceTree = "<group>"; };
 		903A43B117C70A4E0048B218 /* feta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = feta.png; path = Images/feta.png; sourceTree = "<group>"; };
@@ -140,7 +132,6 @@
 		903A43C017C70A4E0048B218 /* pastaflora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pastaflora.png; path = Images/pastaflora.png; sourceTree = "<group>"; };
 		903A43C117C70A4E0048B218 /* pastitsio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pastitsio.png; path = Images/pastitsio.png; sourceTree = "<group>"; };
 		903A43C217C70A4E0048B218 /* pilafi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pilafi.png; path = Images/pilafi.png; sourceTree = "<group>"; };
-		903A43C317C70A4E0048B218 /* roofers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = roofers.png; path = Images/roofers.png; sourceTree = "<group>"; };
 		903A43C417C70A4E0048B218 /* salad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salad.png; path = Images/salad.png; sourceTree = "<group>"; };
 		903A43C517C70A4E0048B218 /* shadow.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = shadow.xml; path = Images/shadow.xml; sourceTree = "<group>"; };
 		903A43C617C70A4E0048B218 /* souvlaki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = souvlaki.png; path = Images/souvlaki.png; sourceTree = "<group>"; };
@@ -149,7 +140,6 @@
 		903A43C917C70A4E0048B218 /* tiropita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiropita.png; path = Images/tiropita.png; sourceTree = "<group>"; };
 		903A43CA17C70A4E0048B218 /* tzatziki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tzatziki.png; path = Images/tzatziki.png; sourceTree = "<group>"; };
 		903A43CB17C70A4E0048B218 /* yogurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yogurt.png; path = Images/yogurt.png; sourceTree = "<group>"; };
-		903A43CC17C70A4E0048B218 /* zions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zions.png; path = Images/zions.png; sourceTree = "<group>"; };
 		903A43F017C70AE60048B218 /* food.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = food.xml; sourceTree = "<group>"; };
 		906A94B617C4896900BA1009 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = SOURCE_ROOT; };
 		906A94B817C4897700BA1009 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = SOURCE_ROOT; };
@@ -303,9 +293,6 @@
 				917DD78117C5E53B001CE2E9 /* greekkey@2x.png */,
 				903A43AA17C70A4E0048B218 /* amigdalota.png */,
 				903A43AB17C70A4E0048B218 /* baklava.png */,
-				903A43AC17C70A4E0048B218 /* coke.png */,
-				903A43AD17C70A4E0048B218 /* crengland.png */,
-				903A43AE17C70A4E0048B218 /* ctrees.png */,
 				903A43AF17C70A4E0048B218 /* dolmathes.png */,
 				903A43B017C70A4E0048B218 /* fasolakia.png */,
 				903A43B117C70A4E0048B218 /* feta.png */,
@@ -326,7 +313,6 @@
 				903A43C017C70A4E0048B218 /* pastaflora.png */,
 				903A43C117C70A4E0048B218 /* pastitsio.png */,
 				903A43C217C70A4E0048B218 /* pilafi.png */,
-				903A43C317C70A4E0048B218 /* roofers.png */,
 				903A43C417C70A4E0048B218 /* salad.png */,
 				903A43C517C70A4E0048B218 /* shadow.xml */,
 				903A43C617C70A4E0048B218 /* souvlaki.png */,
@@ -335,7 +321,6 @@
 				903A43C917C70A4E0048B218 /* tiropita.png */,
 				903A43CA17C70A4E0048B218 /* tzatziki.png */,
 				903A43CB17C70A4E0048B218 /* yogurt.png */,
-				903A43CC17C70A4E0048B218 /* zions.png */,
 				917DD77617C1D2ED001CE2E9 /* greyButton@2xpng */,
 				917DD77717C1D2ED001CE2E9 /* greyButtonHighlight@2x.png */,
 				917DD77817C1D2ED001CE2E9 /* greyButton@2x.png */,
@@ -544,9 +529,6 @@
 				917DD79B17C710EC001CE2E9 /* Default.png in Resources */,
 				903A43CD17C70A4E0048B218 /* amigdalota.png in Resources */,
 				903A43CE17C70A4E0048B218 /* baklava.png in Resources */,
-				903A43CF17C70A4E0048B218 /* coke.png in Resources */,
-				903A43D017C70A4E0048B218 /* crengland.png in Resources */,
-				903A43D117C70A4E0048B218 /* ctrees.png in Resources */,
 				903A43D217C70A4E0048B218 /* dolmathes.png in Resources */,
 				903A43D317C70A4E0048B218 /* fasolakia.png in Resources */,
 				903A43D417C70A4E0048B218 /* feta.png in Resources */,
@@ -567,7 +549,6 @@
 				903A43E317C70A4E0048B218 /* pastaflora.png in Resources */,
 				903A43E417C70A4E0048B218 /* pastitsio.png in Resources */,
 				903A43E517C70A4E0048B218 /* pilafi.png in Resources */,
-				903A43E617C70A4E0048B218 /* roofers.png in Resources */,
 				903A43E717C70A4E0048B218 /* salad.png in Resources */,
 				903A43E817C70A4E0048B218 /* shadow.xml in Resources */,
 				903A43E917C70A4E0048B218 /* souvlaki.png in Resources */,
@@ -576,7 +557,6 @@
 				903A43EC17C70A4E0048B218 /* tiropita.png in Resources */,
 				903A43ED17C70A4E0048B218 /* tzatziki.png in Resources */,
 				903A43EE17C70A4E0048B218 /* yogurt.png in Resources */,
-				903A43EF17C70A4E0048B218 /* zions.png in Resources */,
 				903A43F117C70AE60048B218 /* food.xml in Resources */,
 				9019588E17C85E4B00A8722A /* FoodDisplay.xib in Resources */,
 				917DD7A917C9888B001CE2E9 /* chicken.png in Resources */,
