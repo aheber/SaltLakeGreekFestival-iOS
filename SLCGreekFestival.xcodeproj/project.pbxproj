@@ -54,6 +54,15 @@
 		912F996B17CAF73100096555 /* diples.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996817CAF73100096555 /* diples.png */; };
 		912F996E17CB250B00096555 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996C17CB250B00096555 /* blueButton.png */; };
 		912F996F17CB250B00096555 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996D17CB250B00096555 /* blueButton@2x.png */; };
+		912F997117CC457500096555 /* sponsors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 912F997017CC457500096555 /* sponsors.xml */; };
+		912F997B17CC45A600096555 /* budweiser.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997317CC45A600096555 /* budweiser.png */; };
+		912F997C17CC45A600096555 /* coke.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997417CC45A600096555 /* coke.png */; };
+		912F997D17CC45A600096555 /* inmag.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997517CC45A600096555 /* inmag.png */; };
+		912F997E17CC45A600096555 /* kutv.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997617CC45A600096555 /* kutv.png */; };
+		912F997F17CC45A600096555 /* mikes.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997717CC45A600096555 /* mikes.png */; };
+		912F998017CC45A600096555 /* natewade.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997817CC45A600096555 /* natewade.png */; };
+		912F998117CC45A600096555 /* nicolas.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997917CC45A600096555 /* nicolas.png */; };
+		912F998217CC45A600096555 /* zions.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997A17CC45A600096555 /* zions.png */; };
 		917DD76217C012F0001CE2E9 /* apple-adhoc-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */; };
 		917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76317C012FE001CE2E9 /* apple-retina-114.png */; };
 		917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76817C1C08C001CE2E9 /* gflogo.png */; };
@@ -151,6 +160,15 @@
 		912F996817CAF73100096555 /* diples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diples.png; sourceTree = "<group>"; };
 		912F996C17CB250B00096555 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		912F996D17CB250B00096555 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		912F997017CC457500096555 /* sponsors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sponsors.xml; sourceTree = "<group>"; };
+		912F997317CC45A600096555 /* budweiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budweiser.png; sourceTree = "<group>"; };
+		912F997417CC45A600096555 /* coke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke.png; sourceTree = "<group>"; };
+		912F997517CC45A600096555 /* inmag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inmag.png; sourceTree = "<group>"; };
+		912F997617CC45A600096555 /* kutv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kutv.png; sourceTree = "<group>"; };
+		912F997717CC45A600096555 /* mikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mikes.png; sourceTree = "<group>"; };
+		912F997817CC45A600096555 /* natewade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natewade.png; sourceTree = "<group>"; };
+		912F997917CC45A600096555 /* nicolas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicolas.png; sourceTree = "<group>"; };
+		912F997A17CC45A600096555 /* zions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zions.png; sourceTree = "<group>"; };
 		917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-adhoc-57.png"; sourceTree = "<group>"; };
 		917DD76317C012FE001CE2E9 /* apple-retina-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-114.png"; sourceTree = "<group>"; };
 		917DD76817C1C08C001CE2E9 /* gflogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gflogo.png; sourceTree = "<group>"; };
@@ -228,6 +246,7 @@
 		90E863BA17C47E5F001AAC7F /* xml */ = {
 			isa = PBXGroup;
 			children = (
+				912F997017CC457500096555 /* sponsors.xml */,
 				903A43F017C70AE60048B218 /* food.xml */,
 				90E863BB17C47E7D001AAC7F /* schedule.xml */,
 			);
@@ -243,9 +262,25 @@
 			name = TBXML;
 			sourceTree = "<group>";
 		};
+		912F997217CC458E00096555 /* ads */ = {
+			isa = PBXGroup;
+			children = (
+				912F997317CC45A600096555 /* budweiser.png */,
+				912F997417CC45A600096555 /* coke.png */,
+				912F997517CC45A600096555 /* inmag.png */,
+				912F997617CC45A600096555 /* kutv.png */,
+				912F997717CC45A600096555 /* mikes.png */,
+				912F997817CC45A600096555 /* natewade.png */,
+				912F997917CC45A600096555 /* nicolas.png */,
+				912F997A17CC45A600096555 /* zions.png */,
+			);
+			name = ads;
+			sourceTree = "<group>";
+		};
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				912F997217CC458E00096555 /* ads */,
 				912F996C17CB250B00096555 /* blueButton.png */,
 				912F996D17CB250B00096555 /* blueButton@2x.png */,
 				912F996617CAF73100096555 /* galaktoboureko.png */,
@@ -545,6 +580,15 @@
 				912F996B17CAF73100096555 /* diples.png in Resources */,
 				912F996E17CB250B00096555 /* blueButton.png in Resources */,
 				912F996F17CB250B00096555 /* blueButton@2x.png in Resources */,
+				912F997117CC457500096555 /* sponsors.xml in Resources */,
+				912F997B17CC45A600096555 /* budweiser.png in Resources */,
+				912F997C17CC45A600096555 /* coke.png in Resources */,
+				912F997D17CC45A600096555 /* inmag.png in Resources */,
+				912F997E17CC45A600096555 /* kutv.png in Resources */,
+				912F997F17CC45A600096555 /* mikes.png in Resources */,
+				912F998017CC45A600096555 /* natewade.png in Resources */,
+				912F998117CC45A600096555 /* nicolas.png in Resources */,
+				912F998217CC45A600096555 /* zions.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
