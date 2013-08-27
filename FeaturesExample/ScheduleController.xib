@@ -54,6 +54,7 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">Saturday</string>
 						<reference key="IBUIHighlightedTitleColor" ref="347700193"/>
+						<reference key="IBUIDisabledTitleColor" ref="347700193"/>
 						<object class="NSColor" key="IBUINormalTitleColor" id="394485017">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MAA</bytes>
@@ -61,6 +62,10 @@
 						<object class="NSColor" key="IBUINormalTitleShadowColor" id="54455031">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MC41AA</bytes>
+						</object>
+						<object class="NSCustomResource" key="IBUIDisabledBackgroundImage" id="400278781">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">blueButton@2x.png</string>
 						</object>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage" id="81046607">
 							<string key="NSClassName">NSImage</string>
@@ -93,8 +98,10 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">Friday</string>
 						<reference key="IBUIHighlightedTitleColor" ref="347700193"/>
+						<reference key="IBUIDisabledTitleColor" ref="347700193"/>
 						<reference key="IBUINormalTitleColor" ref="394485017"/>
 						<reference key="IBUINormalTitleShadowColor" ref="54455031"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="400278781"/>
 						<reference key="IBUINormalBackgroundImage" ref="81046607"/>
 						<reference key="IBUIFontDescription" ref="440489151"/>
 						<reference key="IBUIFont" ref="33319922"/>
@@ -117,6 +124,7 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">Sunday</string>
 						<reference key="IBUIHighlightedTitleColor" ref="347700193"/>
+						<reference key="IBUIDisabledTitleColor" ref="347700193"/>
 						<reference key="IBUISelectedTitleColor" ref="347700193"/>
 						<reference key="IBUINormalTitleColor" ref="394485017"/>
 						<reference key="IBUINormalTitleShadowColor" ref="54455031"/>
@@ -128,6 +136,7 @@
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">blackButton@2x.png</string>
 						</object>
+						<reference key="IBUIDisabledBackgroundImage" ref="400278781"/>
 						<reference key="IBUINormalBackgroundImage" ref="81046607"/>
 						<reference key="IBUIFontDescription" ref="440489151"/>
 						<reference key="IBUIFont" ref="33319922"/>
@@ -147,8 +156,10 @@
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<string key="IBUINormalTitle">Thursday</string>
 						<reference key="IBUIHighlightedTitleColor" ref="347700193"/>
+						<reference key="IBUIDisabledTitleColor" ref="347700193"/>
 						<reference key="IBUINormalTitleColor" ref="394485017"/>
 						<reference key="IBUINormalTitleShadowColor" ref="54455031"/>
+						<reference key="IBUIDisabledBackgroundImage" ref="400278781"/>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 							<string key="NSClassName">NSImage</string>
 							<string key="NSResourceName">greyButton@2x.png</string>
@@ -347,7 +358,7 @@
 				<string key="-2.CustomClassName">UIResponder</string>
 				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="10.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<real value="0.0" key="10.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
+				<real value="3" key="10.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="11.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<real value="3" key="11.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 				<string key="12.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -355,6 +366,7 @@
 				<string key="13.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="9.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<real value="3" key="9.IBUIButtonInspectorSelectedStateConfigurationMetadataKey"/>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
@@ -409,6 +421,7 @@
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
 			<string key="blackButton@2x.png">{72, 72}</string>
+			<string key="blueButton@2x.png">{72, 72}</string>
 			<string key="disabled Image">{16, 16}</string>
 			<string key="greyButton.png">{36, 36}</string>
 			<string key="greyButton@2x.png">{72, 72}</string>
