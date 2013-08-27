@@ -52,6 +52,8 @@
 		912F996917CAF73100096555 /* galaktoboureko.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996617CAF73100096555 /* galaktoboureko.png */; };
 		912F996A17CAF73100096555 /* flogeres.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996717CAF73100096555 /* flogeres.png */; };
 		912F996B17CAF73100096555 /* diples.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996817CAF73100096555 /* diples.png */; };
+		912F996E17CB250B00096555 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996C17CB250B00096555 /* blueButton.png */; };
+		912F996F17CB250B00096555 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996D17CB250B00096555 /* blueButton@2x.png */; };
 		917DD76217C012F0001CE2E9 /* apple-adhoc-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */; };
 		917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76317C012FE001CE2E9 /* apple-retina-114.png */; };
 		917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD76817C1C08C001CE2E9 /* gflogo.png */; };
@@ -147,6 +149,8 @@
 		912F996617CAF73100096555 /* galaktoboureko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaktoboureko.png; sourceTree = "<group>"; };
 		912F996717CAF73100096555 /* flogeres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flogeres.png; sourceTree = "<group>"; };
 		912F996817CAF73100096555 /* diples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diples.png; sourceTree = "<group>"; };
+		912F996C17CB250B00096555 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		912F996D17CB250B00096555 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
 		917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-adhoc-57.png"; sourceTree = "<group>"; };
 		917DD76317C012FE001CE2E9 /* apple-retina-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-114.png"; sourceTree = "<group>"; };
 		917DD76817C1C08C001CE2E9 /* gflogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gflogo.png; sourceTree = "<group>"; };
@@ -242,6 +246,8 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				912F996C17CB250B00096555 /* blueButton.png */,
+				912F996D17CB250B00096555 /* blueButton@2x.png */,
 				912F996617CAF73100096555 /* galaktoboureko.png */,
 				912F996717CAF73100096555 /* flogeres.png */,
 				912F996817CAF73100096555 /* diples.png */,
@@ -537,6 +543,8 @@
 				912F996917CAF73100096555 /* galaktoboureko.png in Resources */,
 				912F996A17CAF73100096555 /* flogeres.png in Resources */,
 				912F996B17CAF73100096555 /* diples.png in Resources */,
+				912F996E17CB250B00096555 /* blueButton.png in Resources */,
+				912F996F17CB250B00096555 /* blueButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
