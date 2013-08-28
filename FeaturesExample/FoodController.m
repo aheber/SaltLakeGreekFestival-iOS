@@ -123,7 +123,25 @@ int padding;
 
 - (void)loadFood{
     NSError *myError = nil;
-    TBXML *tbxml = [TBXML newTBXMLWithXMLFile:@"food" fileExtension:@"xml" error:&myError];
+    NSData *xmlData;
+    NSArray       *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachesDirectory = [paths objectAtIndex:0];
+    NSString* cachedXML = [cachesDirectory stringByAppendingPathComponent:@"food.xml"];
+    BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:cachedXML];
+    if (fileExists){
+        xmlData = [[NSFileManager defaultManager] contentsAtPath:cachedXML];
+    }else{
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"food" ofType:@"xml"];
+        xmlData = [NSData dataWithContentsOfFile:filePath];
+    }
+    
+    TBXML *tbxml = [TBXML newTBXMLWithXMLData:xmlData error:&myError];
+
+    
+    
+    
+    //NSError *myError = nil;
+    //TBXML *tbxml = [TBXML newTBXMLWithXMLFile:@"food" fileExtension:@"xml" error:&myError];
     
     if (tbxml.rootXMLElement)
         [self traverseElement:tbxml.rootXMLElement];

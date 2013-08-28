@@ -9,8 +9,8 @@
 #import "ScheduleController.h"
 #import "SelectionController.h"
 #import "TBXML.h"
-#define PAGES_NUMBER 6
 #define SCROLL_INT 10.0
+#define AWS_URL @"http://slcgreekfestival.s3-website-us-west-2.amazonaws.com";
 
 @interface RootViewController () <IIViewDeckControllerDelegate> {
     IIViewDeckPanningMode _panning;
@@ -30,6 +30,9 @@
 @synthesize navController = _navController;
 @synthesize scrollView = _scrollView;
 NSMutableArray *ads;
+NSString *cachesDirectory;
+NSOperationQueue *imageOperationQueue;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -53,12 +56,17 @@ NSMutableArray *ads;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    imageOperationQueue = [[NSOperationQueue alloc]init];
+    imageOperationQueue.maxConcurrentOperationCount = 2;
+    
+    [self downloadAds:@"sponsors.xml"];
+    [self downloadAds:@"food.xml"];
     [self loadAds];
     [self GeneratePages];
     h = 0;
     [NSTimer scheduledTimerWithTimeInterval:SCROLL_INT target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
     
-
+    
     // Override point for customization after application launch.
     RootViewController* rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
     rootViewController.panningView = self.panningView;
@@ -101,6 +109,29 @@ NSMutableArray *ads;
 	return YES;
 }
 
+# pragma mark - ads
+
+- (BOOL) downloadAds:(NSString *)catptureURL {
+    
+    NSString *stringURL = [NSString stringWithFormat:@"http://%@/%@",@"slcgreekfestival.s3-website-us-west-2.amazonaws.com", catptureURL];
+    NSURL  *url = [NSURL URLWithString:stringURL];
+    NSData *urlData = [NSData dataWithContentsOfURL:url];
+    if ( urlData )
+    {
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+        cachesDirectory = [paths objectAtIndex:0];
+        NSString  *filePath = [cachesDirectory stringByAppendingPathComponent:catptureURL];
+        [urlData writeToFile:filePath atomically:YES];
+    }
+    return true;
+}
+
+- (void) adTouched:(id)sender {
+    UIButton *button = (UIButton *)sender;
+    NSURL *url = [NSURL URLWithString:[[ads objectAtIndex:[button tag]] objectAtIndex:1]];
+    [[UIApplication sharedApplication] openURL:url];
+    
+}
 # pragma mark - timer
 
 - (void) onTimer {
@@ -120,18 +151,61 @@ NSMutableArray *ads;
     for (int i=0; i<[ads count]; i++)
     {
         UIButton *Page = [[UIButton alloc] initWithFrame:CGRectMake(_scrollView.frame.size.width*i, 0.0, _scrollView.frame.size.width, _scrollView.frame.size.height)];
-        UIImage *btnImage = [UIImage imageNamed:[[ads objectAtIndex:i] objectAtIndex:0]];
-        [Page setImage:btnImage forState:UIControlStateNormal];
-        [_scrollView addSubview:Page];
+        [Page setTag:i];
+        [Page addTarget:self
+                   action:@selector(adTouched:)
+         forControlEvents:UIControlEventTouchUpInside];
+        NSString *nameExt = [NSString stringWithFormat:@"%@.png",[[ads objectAtIndex:i] objectAtIndex:0]];
+        NSData *imgData;
+        UIImage *btnImage;
+        NSString* cachedImg = [cachesDirectory stringByAppendingPathComponent:nameExt];
+        BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:cachedImg];
+        if(fileExists){
+            imgData = [[NSFileManager defaultManager] contentsAtPath:cachedImg];
+            btnImage = [UIImage imageWithData:imgData];
+            
+            [Page setImage:btnImage forState:UIControlStateNormal];
+            [_scrollView addSubview:Page];
+        } else {
+            //Image not yet cached
+            NSString *filePath = [[NSBundle mainBundle] pathForResource:[[ads objectAtIndex:i] objectAtIndex:0] ofType:@"png"];
+            imgData = [NSData dataWithContentsOfFile:filePath];
+            btnImage = [UIImage imageWithData:imgData];
+            
+            [Page setImage:btnImage forState:UIControlStateNormal];
+            [_scrollView addSubview:Page];
+            
+            // Add an operation as a block to a queue
+            [imageOperationQueue addOperationWithBlock: ^ {
+                // a block of operation
+                [self downloadAds:nameExt];
+                if([[NSFileManager defaultManager] fileExistsAtPath:cachedImg]){
+                    // Get hold of main queue (main thread)
+                    [[NSOperationQueue mainQueue] addOperationWithBlock: ^ {
+                        [Page setImage:[UIImage imageWithData:[[NSFileManager defaultManager] contentsAtPath:cachedImg]] forState:UIControlStateNormal];
+                    }];
+                }
+            }];
+        }
     }
-    _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width*PAGES_NUMBER, _scrollView.frame.size.height);
+    _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width*[ads count], _scrollView.frame.size.height);
 }
 
 #pragma mark - XML Parser
 
 - (void)loadAds{
     NSError *myError = nil;
-    TBXML *tbxml = [TBXML newTBXMLWithXMLFile:@"sponsors" fileExtension:@"xml" error:&myError];
+    NSData *xmlData;
+    NSString* cachedXML = [cachesDirectory stringByAppendingPathComponent:@"sponsors.xml"];
+    BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:cachedXML];
+    if (fileExists){
+        xmlData = [[NSFileManager defaultManager] contentsAtPath:cachedXML];
+    }else{
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"sponsors" ofType:@"xml"];
+        xmlData = [NSData dataWithContentsOfFile:filePath];
+    }
+    
+    TBXML *tbxml = [TBXML newTBXMLWithXMLData:xmlData error:&myError];
     ads = [[NSMutableArray alloc] init];
     
     if (tbxml.rootXMLElement)
@@ -144,9 +218,9 @@ NSMutableArray *ads;
             [self traverseElement:element->firstChild];
         if ([[TBXML elementName:element] isEqualToString:@"sponsor"]) {
             [ads addObject:[NSArray arrayWithObjects:
-                             [TBXML valueOfAttributeNamed:@"image" forElement:element],
-                             [TBXML valueOfAttributeNamed:@"url" forElement:element],
-                             [TBXML textForElement:element],nil]];
+                            [TBXML valueOfAttributeNamed:@"image" forElement:element],
+                            [TBXML valueOfAttributeNamed:@"url" forElement:element],
+                            [TBXML textForElement:element],nil]];
         }
     } while ((element = element->nextSibling));
 }
