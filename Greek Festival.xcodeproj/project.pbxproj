@@ -201,14 +201,14 @@
 		E2955F8C14B7D15E003DDB4E /* ScheduleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScheduleController.h; sourceTree = "<group>"; };
 		E2955F8D14B7D15E003DDB4E /* ScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScheduleController.m; sourceTree = "<group>"; };
 		E2955F8E14B7D15E003DDB4E /* ScheduleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleController.xib; sourceTree = "<group>"; };
-		E2C8E58F1497F62B00560D23 /* SLCGreekFestival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLCGreekFestival.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C8E58F1497F62B00560D23 /* Greek Festival.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greek Festival.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C8E5931497F62B00560D23 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2C8E5951497F62B00560D23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2C8E5971497F62B00560D23 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2C8E59B1497F62B00560D23 /* SLCGreekFestival-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLCGreekFestival-Info.plist"; sourceTree = "<group>"; };
+		E2C8E59B1497F62B00560D23 /* Greek Festival-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Greek Festival-Info.plist"; sourceTree = "<group>"; };
 		E2C8E59D1497F62B00560D23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2C8E59F1497F62B00560D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2C8E5A11497F62B00560D23 /* SLCGreekFestival-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLCGreekFestival-Prefix.pch"; sourceTree = "<group>"; };
+		E2C8E5A11497F62B00560D23 /* Greek Festival-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Greek Festival-Prefix.pch"; sourceTree = "<group>"; };
 		E2C8E5A21497F62B00560D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E2C8E5A31497F62B00560D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E2C8E5C31497FDC600560D23 /* FoodController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodController.h; sourceTree = "<group>"; };
@@ -361,7 +361,7 @@
 		E2C8E5901497F62B00560D23 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2C8E58F1497F62B00560D23 /* SLCGreekFestival.app */,
+				E2C8E58F1497F62B00560D23 /* Greek Festival.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,10 +400,10 @@
 		E2C8E59A1497F62B00560D23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E2C8E59B1497F62B00560D23 /* SLCGreekFestival-Info.plist */,
+				E2C8E59B1497F62B00560D23 /* Greek Festival-Info.plist */,
 				E2C8E59C1497F62B00560D23 /* InfoPlist.strings */,
 				E2C8E59F1497F62B00560D23 /* main.m */,
-				E2C8E5A11497F62B00560D23 /* SLCGreekFestival-Prefix.pch */,
+				E2C8E5A11497F62B00560D23 /* Greek Festival-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -445,9 +445,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2C8E58E1497F62B00560D23 /* SLCGreekFestival */ = {
+		E2C8E58E1497F62B00560D23 /* Greek Festival */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "SLCGreekFestival" */;
+			buildConfigurationList = E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "Greek Festival" */;
 			buildPhases = (
 				E2C8E58B1497F62B00560D23 /* Sources */,
 				E2C8E58C1497F62B00560D23 /* Frameworks */,
@@ -457,9 +457,9 @@
 			);
 			dependencies = (
 			);
-			name = SLCGreekFestival;
+			name = "Greek Festival";
 			productName = FeaturesExample;
-			productReference = E2C8E58F1497F62B00560D23 /* SLCGreekFestival.app */;
+			productReference = E2C8E58F1497F62B00560D23 /* Greek Festival.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -471,7 +471,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Adriaenssen BVBA";
 			};
-			buildConfigurationList = E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "SLCGreekFestival" */;
+			buildConfigurationList = E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "Greek Festival" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -483,7 +483,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2C8E58E1497F62B00560D23 /* SLCGreekFestival */,
+				E2C8E58E1497F62B00560D23 /* Greek Festival */,
 			);
 		};
 /* End PBXProject section */
@@ -676,10 +676,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Littler (VLSXNL7227)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FeaturesExample/SLCGreekFestival-Prefix.pch";
-				INFOPLIST_FILE = "FeaturesExample/SLCGreekFestival-Info.plist";
+				GCC_PREFIX_HEADER = "FeaturesExample/Greek Festival-Prefix.pch";
+				INFOPLIST_FILE = "FeaturesExample/Greek Festival-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = SLCGreekFestival;
+				PRODUCT_NAME = "Greek Festival";
 				PROVISIONING_PROFILE = "B5D4FBF3-B05C-46EF-A847-5AF9E1666DB7";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -693,10 +693,10 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Littler (VLSXNL7227)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FeaturesExample/SLCGreekFestival-Prefix.pch";
-				INFOPLIST_FILE = "FeaturesExample/SLCGreekFestival-Info.plist";
+				GCC_PREFIX_HEADER = "FeaturesExample/Greek Festival-Prefix.pch";
+				INFOPLIST_FILE = "FeaturesExample/Greek Festival-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				PRODUCT_NAME = SLCGreekFestival;
+				PRODUCT_NAME = "Greek Festival";
 				PROVISIONING_PROFILE = "B5D4FBF3-B05C-46EF-A847-5AF9E1666DB7";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -706,7 +706,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "SLCGreekFestival" */ = {
+		E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "Greek Festival" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2C8E5AB1497F62B00560D23 /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "SLCGreekFestival" */ = {
+		E2C8E5AD1497F62B00560D23 /* Build configuration list for PBXNativeTarget "Greek Festival" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2C8E5AE1497F62B00560D23 /* Debug */,
