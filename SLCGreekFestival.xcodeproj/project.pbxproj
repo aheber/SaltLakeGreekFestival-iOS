@@ -44,9 +44,6 @@
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
 		90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B7189917BDC25D004977E2 /* InformationController.xib */; };
 		90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90E863BB17C47E7D001AAC7F /* schedule.xml */; };
-		912F996917CAF73100096555 /* galaktoboureko.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996617CAF73100096555 /* galaktoboureko.png */; };
-		912F996A17CAF73100096555 /* flogeres.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996717CAF73100096555 /* flogeres.png */; };
-		912F996B17CAF73100096555 /* diples.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996817CAF73100096555 /* diples.png */; };
 		912F996E17CB250B00096555 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996C17CB250B00096555 /* blueButton.png */; };
 		912F996F17CB250B00096555 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996D17CB250B00096555 /* blueButton@2x.png */; };
 		912F997117CC457500096555 /* sponsors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 912F997017CC457500096555 /* sponsors.xml */; };
@@ -87,12 +84,10 @@
 		917DD79717C710AC001CE2E9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79617C710AC001CE2E9 /* Default-568h@2x.png */; };
 		917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79817C710D9001CE2E9 /* Default@2x.png */; };
 		917DD79B17C710EC001CE2E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79417C7108C001CE2E9 /* Default.png */; };
-		917DD7A917C9888B001CE2E9 /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD7A717C9888B001CE2E9 /* chicken.png */; };
 		917DD7AA17C9888B001CE2E9 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD7A817C9888B001CE2E9 /* button_back.png */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
-		E2955F7314B730AB003DDB4E /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = E2955F7214B730AB003DDB4E /* photo.png */; };
 		E2955F8A14B7D14F003DDB4E /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F8814B7D14F003DDB4E /* MapController.m */; };
 		E2955F8B14B7D14F003DDB4E /* MapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2955F8914B7D14F003DDB4E /* MapController.xib */; };
 		E2955F8F14B7D15E003DDB4E /* ScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F8D14B7D15E003DDB4E /* ScheduleController.m */; };
@@ -151,9 +146,6 @@
 		90B7189817BDC25D004977E2 /* InformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
 		90B7189917BDC25D004977E2 /* InformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationController.xib; sourceTree = "<group>"; };
 		90E863BB17C47E7D001AAC7F /* schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schedule.xml; sourceTree = "<group>"; };
-		912F996617CAF73100096555 /* galaktoboureko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaktoboureko.png; sourceTree = "<group>"; };
-		912F996717CAF73100096555 /* flogeres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flogeres.png; sourceTree = "<group>"; };
-		912F996817CAF73100096555 /* diples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diples.png; sourceTree = "<group>"; };
 		912F996C17CB250B00096555 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		912F996D17CB250B00096555 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
 		912F997017CC457500096555 /* sponsors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sponsors.xml; sourceTree = "<group>"; };
@@ -195,7 +187,6 @@
 		917DD79417C7108C001CE2E9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		917DD79617C710AC001CE2E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		917DD79817C710D9001CE2E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		917DD7A717C9888B001CE2E9 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
 		917DD7A817C9888B001CE2E9 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
@@ -204,7 +195,6 @@
 		E22E07F014BBA1AB00B002B7 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		E2955F6C14B728E4003DDB4E /* IIViewDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IIViewDeckController.h; sourceTree = "<group>"; };
 		E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IIViewDeckController.m; sourceTree = "<group>"; };
-		E2955F7214B730AB003DDB4E /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		E2955F8714B7D14F003DDB4E /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
 		E2955F8814B7D14F003DDB4E /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
 		E2955F8914B7D14F003DDB4E /* MapController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapController.xib; sourceTree = "<group>"; };
@@ -291,10 +281,6 @@
 				912F997217CC458E00096555 /* ads */,
 				912F996C17CB250B00096555 /* blueButton.png */,
 				912F996D17CB250B00096555 /* blueButton@2x.png */,
-				912F996617CAF73100096555 /* galaktoboureko.png */,
-				912F996717CAF73100096555 /* flogeres.png */,
-				912F996817CAF73100096555 /* diples.png */,
-				917DD7A717C9888B001CE2E9 /* chicken.png */,
 				917DD7A817C9888B001CE2E9 /* button_back.png */,
 				917DD79217C70815001CE2E9 /* button_normal.png */,
 				917DD78A17C6FEC7001CE2E9 /* menubtn.png */,
@@ -343,7 +329,6 @@
 				917DD77017C1CFB0001CE2E9 /* blackButtonHighlight.png */,
 				917DD77117C1CFB0001CE2E9 /* blackButton.png */,
 				917DD76817C1C08C001CE2E9 /* gflogo.png */,
-				E2955F7214B730AB003DDB4E /* photo.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -511,7 +496,6 @@
 				E2C8E59E1497F62B00560D23 /* InfoPlist.strings in Resources */,
 				E2C8E5C71497FDC600560D23 /* FoodController.xib in Resources */,
 				E2C8E5CC1497FDDB00560D23 /* SelectionController.xib in Resources */,
-				E2955F7314B730AB003DDB4E /* photo.png in Resources */,
 				E2955F8B14B7D14F003DDB4E /* MapController.xib in Resources */,
 				E2955F9014B7D15E003DDB4E /* ScheduleController.xib in Resources */,
 				E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */,
@@ -571,11 +555,7 @@
 				903A43EE17C70A4E0048B218 /* yogurt.png in Resources */,
 				903A43F117C70AE60048B218 /* food.xml in Resources */,
 				9019588E17C85E4B00A8722A /* FoodDisplay.xib in Resources */,
-				917DD7A917C9888B001CE2E9 /* chicken.png in Resources */,
 				917DD7AA17C9888B001CE2E9 /* button_back.png in Resources */,
-				912F996917CAF73100096555 /* galaktoboureko.png in Resources */,
-				912F996A17CAF73100096555 /* flogeres.png in Resources */,
-				912F996B17CAF73100096555 /* diples.png in Resources */,
 				912F996E17CB250B00096555 /* blueButton.png in Resources */,
 				912F996F17CB250B00096555 /* blueButton@2x.png in Resources */,
 				912F997117CC457500096555 /* sponsors.xml in Resources */,
