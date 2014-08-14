@@ -23,7 +23,7 @@
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
     self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:
-                                              [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"menubtn.png"] style:UIBarButtonItemStyleDone target:self action:@selector(showSelector)],
+                                              [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"menubtn.png" ] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(showSelector)],
                                               nil];
     
     self.navigationItem.title = @"Schedule";
@@ -88,6 +88,7 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     cell.textLabel.text = indexPath.row == 0 ? @"Schedule" : indexPath.row == 1 ? @"Food" : @"Coupon";
     cell.textLabel.textColor = [UIColor whiteColor];
+    cell.backgroundColor = [UIColor clearColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }

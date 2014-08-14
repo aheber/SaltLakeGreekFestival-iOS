@@ -56,23 +56,13 @@ int padding;
     fd.delegate = self;
     fd.food = [food objectAtIndex:[button tag]];
     fd.modalPresentationStyle =  UIModalTransitionStyleCrossDissolve;
-    [self presentModalViewController:fd animated:YES];
-    
-    /*
-     UIButton *button = (UIButton *)sender;
-     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Today's Entry Complete"
-     message:[NSString stringWithFormat:@"Tag %d",[button tag]]
-     delegate:nil
-     cancelButtonTitle:@"OK"
-     otherButtonTitles: nil];
-     [alert show];
-     */
+    [self presentViewController:fd animated:YES completion:nil];
 }
 
 - (void)foodDisplayDidFinish:(FoodDisplay*)foodDisplay {
     // do whatever, then
     // hide the modal view
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
@@ -103,10 +93,10 @@ int padding;
             [button addTarget:self
                        action:@selector(imageTouched:)
              forControlEvents:UIControlEventTouchUpInside];
-            [button setTitle:[[food objectAtIndex:indexPath.row*FOODPERROW+i] objectAtIndex:1] forState:UIControlStateNormal];
+            //[button setTitle:[[food objectAtIndex:indexPath.row*FOODPERROW+i] objectAtIndex:1] forState:UIControlStateNormal];
             button.frame = CGRectMake(padding + ((FOODIMGSIZE+padding)*i), padding/2, FOODIMGSIZE, FOODIMGSIZE);
             
-            [button setImage:btnImage forState:UIControlStateNormal];
+            [button setBackgroundImage:btnImage forState:UIControlStateNormal];
             [button setTag:([indexPath row]*FOODPERROW)+i];
             [cell addSubview:button];
         }
@@ -116,6 +106,7 @@ int padding;
     
     // Configure the cell...
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    cell.backgroundColor = [UIColor clearColor];
     return cell;
 }
 
