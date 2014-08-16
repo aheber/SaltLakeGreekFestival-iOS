@@ -43,6 +43,8 @@
 		906A94B717C4896900BA1009 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 906A94B617C4896900BA1009 /* TBXML.m */; };
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
 		90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B7189917BDC25D004977E2 /* InformationController.xib */; };
+		90E458AD19A0197800DAA8EC /* RunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E458AC19A0197800DAA8EC /* RunController.m */; };
+		90E458B119A019BA00DAA8EC /* RunController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E458B019A019BA00DAA8EC /* RunController.xib */; };
 		90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90E863BB17C47E7D001AAC7F /* schedule.xml */; };
 		912F996E17CB250B00096555 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996C17CB250B00096555 /* blueButton.png */; };
 		912F996F17CB250B00096555 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996D17CB250B00096555 /* blueButton@2x.png */; };
@@ -145,6 +147,9 @@
 		90B7189717BDC25D004977E2 /* InformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationController.h; sourceTree = "<group>"; };
 		90B7189817BDC25D004977E2 /* InformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
 		90B7189917BDC25D004977E2 /* InformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationController.xib; sourceTree = "<group>"; };
+		90E458AB19A0197800DAA8EC /* RunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunController.h; sourceTree = "<group>"; };
+		90E458AC19A0197800DAA8EC /* RunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunController.m; sourceTree = "<group>"; };
+		90E458B019A019BA00DAA8EC /* RunController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RunController.xib; path = ../RunController.xib; sourceTree = "<group>"; };
 		90E863BB17C47E7D001AAC7F /* schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schedule.xml; sourceTree = "<group>"; };
 		912F996C17CB250B00096555 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		912F996D17CB250B00096555 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
@@ -420,15 +425,18 @@
 		E2C8E5C21497FDAE00560D23 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				90E458AB19A0197800DAA8EC /* RunController.h */,
+				90E458AC19A0197800DAA8EC /* RunController.m */,
+				90E458B019A019BA00DAA8EC /* RunController.xib */,
+				E2955F8714B7D14F003DDB4E /* MapController.h */,
+				E2955F8814B7D14F003DDB4E /* MapController.m */,
+				E2955F8914B7D14F003DDB4E /* MapController.xib */,
 				E2C8E5C81497FDDB00560D23 /* SelectionController.h */,
 				E2C8E5C91497FDDB00560D23 /* SelectionController.m */,
 				E2C8E5CA1497FDDB00560D23 /* SelectionController.xib */,
 				E2955F8C14B7D15E003DDB4E /* ScheduleController.h */,
 				E2955F8D14B7D15E003DDB4E /* ScheduleController.m */,
 				E2955F8E14B7D15E003DDB4E /* ScheduleController.xib */,
-				E2955F8714B7D14F003DDB4E /* MapController.h */,
-				E2955F8814B7D14F003DDB4E /* MapController.m */,
-				E2955F8914B7D14F003DDB4E /* MapController.xib */,
 				E2C8E5C31497FDC600560D23 /* FoodController.h */,
 				E2C8E5C41497FDC600560D23 /* FoodController.m */,
 				E2C8E5C51497FDC600560D23 /* FoodController.xib */,
@@ -515,6 +523,7 @@
 				90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */,
 				917DD78217C5E53B001CE2E9 /* greekkey.png in Resources */,
 				917DD78317C5E53B001CE2E9 /* greekkey@2x.png in Resources */,
+				90E458B119A019BA00DAA8EC /* RunController.xib in Resources */,
 				917DD78617C6F271001CE2E9 /* navbar_bg.png in Resources */,
 				917DD78717C6F271001CE2E9 /* navbar_bg@2x.png in Resources */,
 				917DD78C17C6FEC8001CE2E9 /* menubtn.png in Resources */,
@@ -583,6 +592,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E458AD19A0197800DAA8EC /* RunController.m in Sources */,
 				E2C8E5A01497F62B00560D23 /* main.m in Sources */,
 				E2C8E5A41497F62B00560D23 /* AppDelegate.m in Sources */,
 				E2C8E5C61497FDC600560D23 /* FoodController.m in Sources */,

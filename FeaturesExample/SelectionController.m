@@ -19,7 +19,7 @@
     
     if (fooArray == nil)
     {
-        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon",@"New Thing", nil];
+        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon",@"5K Run", nil];
     }
     
     return fooArray;
@@ -123,6 +123,10 @@
         case 2:
             self.viewDeckController.centerController = [[InformationController alloc] initWithNibName:@"InformationController" bundle:nil];
             self.navigationItem.title = @"Coupon";
+            break;
+        case 3:
+            self.viewDeckController.centerController = [[InformationController alloc] initWithNibName:@"RunController" bundle:nil];
+            self.navigationItem.title = @"5K Run";
             break;
     }
     [self showSelector];
