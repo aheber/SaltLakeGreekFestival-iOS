@@ -12,6 +12,19 @@
 
 @implementation SelectionController
 
+#pragma mark - Selection Options
++(NSArray*) options
+{
+    static NSArray* fooArray = nil;
+    
+    if (fooArray == nil)
+    {
+        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon",@"New Thing", nil];
+    }
+    
+    return fooArray;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -42,7 +55,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 3;
+    return [[SelectionController options] count];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
@@ -86,7 +99,7 @@
     // Configure the cell0.0.0.0
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = indexPath.row == 0 ? @"Schedule" : indexPath.row == 1 ? @"Food" : @"Coupon";
+    cell.textLabel.text = [[SelectionController options ] objectAtIndex:indexPath.row];
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.backgroundColor = [UIColor clearColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;

@@ -10,6 +10,8 @@
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 - (IBAction)clickButton:(id)sender;
-@property (weak, nonatomic) IBOutlet UIButton *thursdayBtn;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *fridayBtn;
 
 @end

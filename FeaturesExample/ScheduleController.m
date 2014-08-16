@@ -21,9 +21,9 @@ UIButton *lastButton;
     [super viewDidLoad];
     schedule = [[NSMutableDictionary alloc]initWithCapacity:4];
     [self loadSchedule];
-    currentDay = [schedule objectForKey:@"thursday"];
-    _thursdayBtn.enabled = NO;
-    lastButton = _thursdayBtn;
+    currentDay = [schedule objectForKey:@"friday"];
+    _fridayBtn.enabled = NO;
+    lastButton = _fridayBtn;
 }
 
 #pragma mark - Table view data source
@@ -60,7 +60,7 @@ UIButton *lastButton;
 }
 - (void)viewDidUnload {
     [self setTableView:nil];
-    [self setThursdayBtn:nil];
+    [self setFridayBtn:nil];
     [super viewDidUnload];
 }
 
