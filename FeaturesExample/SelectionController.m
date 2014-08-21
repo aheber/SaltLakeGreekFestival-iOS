@@ -26,6 +26,20 @@
     return fooArray;
 }
 
+#pragma mark - Icon Lookup
++(NSDictionary*) iconDictionary
+{
+    static NSDictionary* icoDict = nil;
+    
+    if (icoDict == nil)
+    {
+        // Dictionary to allow different icon filenames than the row text. Needed for the 5K/10K name
+        icoDict = [NSDictionary dictionaryWithObjectsAndKeys:@"schedule",@"Schedule",@"food",@"Food",@"Coupon",@"Coupon",@"5kicon",@"5K/10K Run", nil];
+    }
+    
+    return icoDict;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -100,10 +114,13 @@
     // Configure the cell0.0.0.0
     
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    cell.textLabel.text = [[SelectionController options ] objectAtIndex:indexPath.row];
+    NSString *key = [[SelectionController options ] objectAtIndex:indexPath.row];
+    cell.textLabel.text = key;
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.backgroundColor = [UIColor clearColor];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    UIImage *cellImage = [UIImage imageNamed:[[SelectionController iconDictionary ] objectForKey:key]];
+    [[cell imageView] setImage:cellImage];
     return cell;
 }
 

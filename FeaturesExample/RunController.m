@@ -47,4 +47,7 @@
 }
 */
 
+- (IBAction)RegisterButtonPressed:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.runnercard.com/roadrace/public/raceGroup/975244"]];
+}
 @end

@@ -10,5 +10,6 @@
 
 @interface RunController : UIViewController
 
+- (IBAction)RegisterButtonPressed:(id)sender;
     
 @end

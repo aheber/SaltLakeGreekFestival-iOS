@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		900C9DB419A59F2F0010AAFF /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 900C9DB119A59F2F0010AAFF /* coupon.png */; };
+		900C9DB519A59F2F0010AAFF /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 900C9DB219A59F2F0010AAFF /* food.png */; };
+		900C9DB619A59F2F0010AAFF /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 900C9DB319A59F2F0010AAFF /* schedule.png */; };
 		9019588D17C85E4B00A8722A /* FoodDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 9019588B17C85E4B00A8722A /* FoodDisplay.m */; };
 		9019588E17C85E4B00A8722A /* FoodDisplay.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9019588C17C85E4B00A8722A /* FoodDisplay.xib */; };
 		903A43CD17C70A4E0048B218 /* amigdalota.png in Resources */ = {isa = PBXBuildFile; fileRef = 903A43AA17C70A4E0048B218 /* amigdalota.png */; };
@@ -109,6 +112,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		900C9DB119A59F2F0010AAFF /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
+		900C9DB219A59F2F0010AAFF /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		900C9DB319A59F2F0010AAFF /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
 		9019588A17C85E4A00A8722A /* FoodDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDisplay.h; sourceTree = "<group>"; };
 		9019588B17C85E4B00A8722A /* FoodDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDisplay.m; sourceTree = "<group>"; };
 		9019588C17C85E4B00A8722A /* FoodDisplay.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodDisplay.xib; sourceTree = "<group>"; };
@@ -279,6 +285,9 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				900C9DB119A59F2F0010AAFF /* coupon.png */,
+				900C9DB219A59F2F0010AAFF /* food.png */,
+				900C9DB319A59F2F0010AAFF /* schedule.png */,
 				918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */,
 				912F998717CDAA8200096555 /* chicken.png */,
 				912F998817CDAA8200096555 /* diples.png */,
@@ -515,6 +524,7 @@
 				917DD76417C012FE001CE2E9 /* apple-retina-114.png in Resources */,
 				917DD76917C1C08C001CE2E9 /* gflogo.png in Resources */,
 				917DD77217C1CFB0001CE2E9 /* blackButton@2x.png in Resources */,
+				900C9DB519A59F2F0010AAFF /* food.png in Resources */,
 				917DD77317C1CFB0001CE2E9 /* blackButtonHighlight@2x.png in Resources */,
 				917DD77417C1CFB0001CE2E9 /* blackButtonHighlight.png in Resources */,
 				917DD77517C1CFB0001CE2E9 /* blackButton.png in Resources */,
@@ -533,6 +543,7 @@
 				917DD78D17C6FEC8001CE2E9 /* menubtn@2x.png in Resources */,
 				917DD79317C70815001CE2E9 /* button_normal.png in Resources */,
 				918CEDC919A1C56D00F72A59 /* 5kLogo.jpg in Resources */,
+				900C9DB419A59F2F0010AAFF /* coupon.png in Resources */,
 				917DD79717C710AC001CE2E9 /* Default-568h@2x.png in Resources */,
 				917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */,
 				917DD79B17C710EC001CE2E9 /* Default.png in Resources */,
@@ -548,6 +559,7 @@
 				903A43D917C70A4E0048B218 /* kalamari.png in Resources */,
 				903A43DA17C70A4E0048B218 /* kataifi.png in Resources */,
 				903A43DB17C70A4E0048B218 /* keftethes.png in Resources */,
+				900C9DB619A59F2F0010AAFF /* schedule.png in Resources */,
 				903A43DC17C70A4E0048B218 /* koulourakia.png in Resources */,
 				903A43DD17C70A4E0048B218 /* kourabiedes.png in Resources */,
 				903A43DE17C70A4E0048B218 /* lamb.png in Resources */,
