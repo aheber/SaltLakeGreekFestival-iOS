@@ -87,6 +87,7 @@
 		917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79817C710D9001CE2E9 /* Default@2x.png */; };
 		917DD79B17C710EC001CE2E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79417C7108C001CE2E9 /* Default.png */; };
 		917DD7AA17C9888B001CE2E9 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD7A817C9888B001CE2E9 /* button_back.png */; };
+		918CEDC919A1C56D00F72A59 /* 5kLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
@@ -193,6 +194,7 @@
 		917DD79617C710AC001CE2E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		917DD79817C710D9001CE2E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		917DD7A817C9888B001CE2E9 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
+		918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5kLogo.jpg; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		E22E07EE14BBA1AB00B002B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -277,6 +279,7 @@
 		917DD76A17C1C098001CE2E9 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */,
 				912F998717CDAA8200096555 /* chicken.png */,
 				912F998817CDAA8200096555 /* diples.png */,
 				912F998917CDAA8200096555 /* flogeres.png */,
@@ -529,6 +532,7 @@
 				917DD78C17C6FEC8001CE2E9 /* menubtn.png in Resources */,
 				917DD78D17C6FEC8001CE2E9 /* menubtn@2x.png in Resources */,
 				917DD79317C70815001CE2E9 /* button_normal.png in Resources */,
+				918CEDC919A1C56D00F72A59 /* 5kLogo.jpg in Resources */,
 				917DD79717C710AC001CE2E9 /* Default-568h@2x.png in Resources */,
 				917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */,
 				917DD79B17C710EC001CE2E9 /* Default.png in Resources */,

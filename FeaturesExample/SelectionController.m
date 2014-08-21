@@ -9,6 +9,7 @@
 #import "MapController.h"
 #import "FoodController.h"
 #import "InformationController.h"
+#import "RunController.h"
 
 @implementation SelectionController
 
@@ -19,7 +20,7 @@
     
     if (fooArray == nil)
     {
-        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon",@"5K Run", nil];
+        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon",@"5K/10K Run", nil];
     }
     
     return fooArray;
@@ -125,7 +126,7 @@
             self.navigationItem.title = @"Coupon";
             break;
         case 3:
-            self.viewDeckController.centerController = [[InformationController alloc] initWithNibName:@"RunController" bundle:nil];
+            self.viewDeckController.centerController = [[RunController alloc] initWithNibName:@"RunController" bundle:nil];
             self.navigationItem.title = @"5K Run";
             break;
     }
