@@ -49,12 +49,12 @@
 		912F996E17CB250B00096555 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996C17CB250B00096555 /* blueButton.png */; };
 		912F996F17CB250B00096555 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996D17CB250B00096555 /* blueButton@2x.png */; };
 		912F997117CC457500096555 /* sponsors.xml in Resources */ = {isa = PBXBuildFile; fileRef = 912F997017CC457500096555 /* sponsors.xml */; };
-		912F997B17CC45A600096555 /* budweiser.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997317CC45A600096555 /* budweiser.png */; };
-		912F997C17CC45A600096555 /* coke.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997417CC45A600096555 /* coke.png */; };
-		912F997E17CC45A600096555 /* kutv.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997617CC45A600096555 /* kutv.png */; };
-		912F997F17CC45A600096555 /* mikes.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997717CC45A600096555 /* mikes.png */; };
-		912F998117CC45A600096555 /* nicholas.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997917CC45A600096555 /* nicholas.png */; };
-		912F998217CC45A600096555 /* zions.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997A17CC45A600096555 /* zions.png */; };
+		912F997B17CC45A600096555 /* budweiser2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997317CC45A600096555 /* budweiser2014.png */; };
+		912F997C17CC45A600096555 /* coke2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997417CC45A600096555 /* coke2014.png */; };
+		912F997E17CC45A600096555 /* kutv2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997617CC45A600096555 /* kutv2014.png */; };
+		912F997F17CC45A600096555 /* mikes2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997717CC45A600096555 /* mikes2014.png */; };
+		912F998117CC45A600096555 /* nicholas2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997917CC45A600096555 /* nicholas2014.png */; };
+		912F998217CC45A600096555 /* zions2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F997A17CC45A600096555 /* zions2014.png */; };
 		912F998517CC736F00096555 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F998317CC736E00096555 /* whiteButton.png */; };
 		912F998617CC736F00096555 /* whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F998417CC736E00096555 /* whiteButton@2x.png */; };
 		912F998B17CDAA8200096555 /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F998717CDAA8200096555 /* chicken.png */; };
@@ -94,7 +94,7 @@
 		91D6F38319A6FDF600B1A231 /* apple-retina-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38019A6FDF600B1A231 /* apple-retina-29.png */; };
 		91D6F38419A6FDF600B1A231 /* apple-retina-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38119A6FDF600B1A231 /* apple-retina-58.png */; };
 		91D6F38519A6FDF600B1A231 /* apple-retina-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38219A6FDF600B1A231 /* apple-retina-80.png */; };
-		91D6F38719A7029D00B1A231 /* jims.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38619A7029D00B1A231 /* jims.png */; };
+		91D6F38719A7029D00B1A231 /* jims2014.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38619A7029D00B1A231 /* jims2014.png */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
@@ -162,12 +162,12 @@
 		912F996C17CB250B00096555 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		912F996D17CB250B00096555 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
 		912F997017CC457500096555 /* sponsors.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sponsors.xml; sourceTree = "<group>"; };
-		912F997317CC45A600096555 /* budweiser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budweiser.png; sourceTree = "<group>"; };
-		912F997417CC45A600096555 /* coke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke.png; sourceTree = "<group>"; };
-		912F997617CC45A600096555 /* kutv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kutv.png; sourceTree = "<group>"; };
-		912F997717CC45A600096555 /* mikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mikes.png; sourceTree = "<group>"; };
-		912F997917CC45A600096555 /* nicholas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicholas.png; sourceTree = "<group>"; };
-		912F997A17CC45A600096555 /* zions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zions.png; sourceTree = "<group>"; };
+		912F997317CC45A600096555 /* budweiser2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budweiser2014.png; sourceTree = "<group>"; };
+		912F997417CC45A600096555 /* coke2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coke2014.png; sourceTree = "<group>"; };
+		912F997617CC45A600096555 /* kutv2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kutv2014.png; sourceTree = "<group>"; };
+		912F997717CC45A600096555 /* mikes2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mikes2014.png; sourceTree = "<group>"; };
+		912F997917CC45A600096555 /* nicholas2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nicholas2014.png; sourceTree = "<group>"; };
+		912F997A17CC45A600096555 /* zions2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zions2014.png; sourceTree = "<group>"; };
 		912F998317CC736E00096555 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		912F998417CC736E00096555 /* whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButton@2x.png"; sourceTree = "<group>"; };
 		912F998717CDAA8200096555 /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chicken.png; path = Images/chicken.png; sourceTree = "<group>"; };
@@ -208,7 +208,7 @@
 		91D6F38019A6FDF600B1A231 /* apple-retina-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-29.png"; sourceTree = "<group>"; };
 		91D6F38119A6FDF600B1A231 /* apple-retina-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-58.png"; sourceTree = "<group>"; };
 		91D6F38219A6FDF600B1A231 /* apple-retina-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-80.png"; sourceTree = "<group>"; };
-		91D6F38619A7029D00B1A231 /* jims.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jims.png; sourceTree = "<group>"; };
+		91D6F38619A7029D00B1A231 /* jims2014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jims2014.png; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		E22E07EE14BBA1AB00B002B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -278,13 +278,13 @@
 		912F997217CC458E00096555 /* ads */ = {
 			isa = PBXGroup;
 			children = (
-				912F997317CC45A600096555 /* budweiser.png */,
-				912F997417CC45A600096555 /* coke.png */,
-				912F997617CC45A600096555 /* kutv.png */,
-				912F997717CC45A600096555 /* mikes.png */,
-				91D6F38619A7029D00B1A231 /* jims.png */,
-				912F997917CC45A600096555 /* nicholas.png */,
-				912F997A17CC45A600096555 /* zions.png */,
+				912F997317CC45A600096555 /* budweiser2014.png */,
+				912F997417CC45A600096555 /* coke2014.png */,
+				912F997617CC45A600096555 /* kutv2014.png */,
+				912F997717CC45A600096555 /* mikes2014.png */,
+				91D6F38619A7029D00B1A231 /* jims2014.png */,
+				912F997917CC45A600096555 /* nicholas2014.png */,
+				912F997A17CC45A600096555 /* zions2014.png */,
 			);
 			name = ads;
 			sourceTree = "<group>";
@@ -546,7 +546,7 @@
 				917DD77417C1CFB0001CE2E9 /* blackButtonHighlight.png in Resources */,
 				917DD77517C1CFB0001CE2E9 /* blackButton.png in Resources */,
 				917DD77B17C1D2ED001CE2E9 /* greyButton@2xpng in Resources */,
-				91D6F38719A7029D00B1A231 /* jims.png in Resources */,
+				91D6F38719A7029D00B1A231 /* jims2014.png in Resources */,
 				917DD77C17C1D2ED001CE2E9 /* greyButtonHighlight@2x.png in Resources */,
 				917DD77D17C1D2ED001CE2E9 /* greyButton@2x.png in Resources */,
 				917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */,
@@ -607,12 +607,12 @@
 				912F996E17CB250B00096555 /* blueButton.png in Resources */,
 				912F996F17CB250B00096555 /* blueButton@2x.png in Resources */,
 				912F997117CC457500096555 /* sponsors.xml in Resources */,
-				912F997B17CC45A600096555 /* budweiser.png in Resources */,
-				912F997C17CC45A600096555 /* coke.png in Resources */,
-				912F997E17CC45A600096555 /* kutv.png in Resources */,
-				912F997F17CC45A600096555 /* mikes.png in Resources */,
-				912F998117CC45A600096555 /* nicholas.png in Resources */,
-				912F998217CC45A600096555 /* zions.png in Resources */,
+				912F997B17CC45A600096555 /* budweiser2014.png in Resources */,
+				912F997C17CC45A600096555 /* coke2014.png in Resources */,
+				912F997E17CC45A600096555 /* kutv2014.png in Resources */,
+				912F997F17CC45A600096555 /* mikes2014.png in Resources */,
+				912F998117CC45A600096555 /* nicholas2014.png in Resources */,
+				912F998217CC45A600096555 /* zions2014.png in Resources */,
 				912F998517CC736F00096555 /* whiteButton.png in Resources */,
 				912F998617CC736F00096555 /* whiteButton@2x.png in Resources */,
 				912F998B17CDAA8200096555 /* chicken.png in Resources */,
