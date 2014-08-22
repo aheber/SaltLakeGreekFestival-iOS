@@ -19,6 +19,10 @@
 		<dict>
 			<key>CFBundleIconFiles</key>
 			<array>
+				<string>apple-retina-80</string>
+				<string>apple-retina-58</string>
+				<string>apple-retina-29</string>
+				<string>apple-retina-120</string>
 				<string>apple-adhoc-57.png</string>
 				<string>apple-retina-114.png</string>
 			</array>
@@ -45,9 +49,9 @@
 		<string>armv7</string>
 	</array>
 	<key>UIStatusBarHidden</key>
-	<false/>
+	<true/>
 	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleDefault</string>
+	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UIStatusBarTintParameters</key>
 	<dict>
 		<key>UINavigationBar</key>

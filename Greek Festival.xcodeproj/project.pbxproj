@@ -90,6 +90,10 @@
 		91D6F37B19A6F2AB00B1A231 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37719A6F2AB00B1A231 /* food.png */; };
 		91D6F37C19A6F2AB00B1A231 /* race.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37819A6F2AB00B1A231 /* race.png */; };
 		91D6F37D19A6F2AB00B1A231 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37919A6F2AB00B1A231 /* schedule.png */; };
+		91D6F37F19A6FD0000B1A231 /* apple-retina-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37E19A6FD0000B1A231 /* apple-retina-120.png */; };
+		91D6F38319A6FDF600B1A231 /* apple-retina-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38019A6FDF600B1A231 /* apple-retina-29.png */; };
+		91D6F38419A6FDF600B1A231 /* apple-retina-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38119A6FDF600B1A231 /* apple-retina-58.png */; };
+		91D6F38519A6FDF600B1A231 /* apple-retina-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38219A6FDF600B1A231 /* apple-retina-80.png */; };
 		E22E07F114BBA1AB00B002B7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E22E07EF14BBA1AB00B002B7 /* RootViewController.m */; };
 		E22E07F214BBA1AC00B002B7 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E22E07F014BBA1AB00B002B7 /* RootViewController.xib */; };
 		E2955F7014B728E4003DDB4E /* IIViewDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2955F6D14B728E4003DDB4E /* IIViewDeckController.m */; };
@@ -199,6 +203,10 @@
 		91D6F37719A6F2AB00B1A231 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
 		91D6F37819A6F2AB00B1A231 /* race.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = race.png; sourceTree = "<group>"; };
 		91D6F37919A6F2AB00B1A231 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
+		91D6F37E19A6FD0000B1A231 /* apple-retina-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-120.png"; sourceTree = "<group>"; };
+		91D6F38019A6FDF600B1A231 /* apple-retina-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-29.png"; sourceTree = "<group>"; };
+		91D6F38119A6FDF600B1A231 /* apple-retina-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-58.png"; sourceTree = "<group>"; };
+		91D6F38219A6FDF600B1A231 /* apple-retina-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-80.png"; sourceTree = "<group>"; };
 		E0C300BE161A4E9D0097213B /* IIWrapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIWrapController.h; sourceTree = "<group>"; };
 		E0C300BF161A4E9D0097213B /* IIWrapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIWrapController.m; sourceTree = "<group>"; };
 		E22E07EE14BBA1AB00B002B7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -364,6 +372,10 @@
 				917DD79817C710D9001CE2E9 /* Default@2x.png */,
 				917DD79617C710AC001CE2E9 /* Default-568h@2x.png */,
 				917DD79417C7108C001CE2E9 /* Default.png */,
+				91D6F38019A6FDF600B1A231 /* apple-retina-29.png */,
+				91D6F38119A6FDF600B1A231 /* apple-retina-58.png */,
+				91D6F38219A6FDF600B1A231 /* apple-retina-80.png */,
+				91D6F37E19A6FD0000B1A231 /* apple-retina-120.png */,
 				917DD76317C012FE001CE2E9 /* apple-retina-114.png */,
 				917DD76117C012F0001CE2E9 /* apple-adhoc-57.png */,
 				E2C8E5991497F62B00560D23 /* SaltLakeGreekFestival-iOS */,
@@ -487,6 +499,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Adriaenssen BVBA";
+				TargetAttributes = {
+					E2C8E58E1497F62B00560D23 = {
+						DevelopmentTeam = 699WH7C9TL;
+					};
+				};
 			};
 			buildConfigurationList = E2C8E5891497F62B00560D23 /* Build configuration list for PBXProject "Greek Festival" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -529,7 +546,9 @@
 				917DD77C17C1D2ED001CE2E9 /* greyButtonHighlight@2x.png in Resources */,
 				917DD77D17C1D2ED001CE2E9 /* greyButton@2x.png in Resources */,
 				917DD77E17C1D2ED001CE2E9 /* greyButtonHighlight.png in Resources */,
+				91D6F37F19A6FD0000B1A231 /* apple-retina-120.png in Resources */,
 				917DD77F17C1D2ED001CE2E9 /* greyButton.png in Resources */,
+				91D6F38519A6FDF600B1A231 /* apple-retina-80.png in Resources */,
 				90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */,
 				917DD78217C5E53B001CE2E9 /* greekkey.png in Resources */,
 				917DD78317C5E53B001CE2E9 /* greekkey@2x.png in Resources */,
@@ -550,6 +569,7 @@
 				903A43D317C70A4E0048B218 /* fasolakia.png in Resources */,
 				903A43D417C70A4E0048B218 /* feta.png in Resources */,
 				903A43D517C70A4E0048B218 /* fries.png in Resources */,
+				91D6F38419A6FDF600B1A231 /* apple-retina-58.png in Resources */,
 				903A43D617C70A4E0048B218 /* galatopita.png in Resources */,
 				91D6F37C19A6F2AB00B1A231 /* race.png in Resources */,
 				903A43D717C70A4E0048B218 /* greekkey.png in Resources */,
@@ -557,6 +577,7 @@
 				903A43D917C70A4E0048B218 /* kalamari.png in Resources */,
 				903A43DA17C70A4E0048B218 /* kataifi.png in Resources */,
 				903A43DB17C70A4E0048B218 /* keftethes.png in Resources */,
+				91D6F38319A6FDF600B1A231 /* apple-retina-29.png in Resources */,
 				903A43DC17C70A4E0048B218 /* koulourakia.png in Resources */,
 				903A43DD17C70A4E0048B218 /* kourabiedes.png in Resources */,
 				903A43DE17C70A4E0048B218 /* lamb.png in Resources */,
@@ -704,14 +725,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Littler (VLSXNL7227)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FeaturesExample/Greek Festival-Prefix.pch";
 				INFOPLIST_FILE = "FeaturesExample/Greek Festival-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Greek Festival";
-				PROVISIONING_PROFILE = "B5D4FBF3-B05C-46EF-A847-5AF9E1666DB7";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -722,13 +743,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Brad Littler (VLSXNL7227)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FeaturesExample/Greek Festival-Prefix.pch";
 				INFOPLIST_FILE = "FeaturesExample/Greek Festival-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Greek Festival";
-				PROVISIONING_PROFILE = "B5D4FBF3-B05C-46EF-A847-5AF9E1666DB7";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
