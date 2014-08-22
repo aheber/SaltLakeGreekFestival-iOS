@@ -34,7 +34,7 @@
     if (icoDict == nil)
     {
         // Dictionary to allow different icon filenames than the row text. Needed for the 5K/10K name
-        icoDict = [NSDictionary dictionaryWithObjectsAndKeys:@"schedule",@"Schedule",@"food",@"Food",@"Coupon",@"Coupon",@"5kicon",@"5K/10K Run", nil];
+        icoDict = [NSDictionary dictionaryWithObjectsAndKeys:@"schedule",@"Schedule",@"food",@"Food",@"coupon",@"Coupon",@"race",@"5K/10K Run", nil];
     }
     
     return icoDict;
@@ -144,7 +144,7 @@
             break;
         case 3:
             self.viewDeckController.centerController = [[RunController alloc] initWithNibName:@"RunController" bundle:nil];
-            self.navigationItem.title = @"5K Run";
+            self.navigationItem.title = @"5K/10K Run";
             break;
     }
     [self showSelector];
