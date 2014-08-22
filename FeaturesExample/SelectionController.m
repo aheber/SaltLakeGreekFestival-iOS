@@ -50,8 +50,13 @@
     self.tableView.scrollEnabled = NO;
     self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 
+    UIImage *image = [UIImage imageNamed:@"menubtn.png"];
+    if ([image respondsToSelector:@selector(imageWithRenderingMode:)]) {
+        image = [image imageWithRenderingMode: UIImageRenderingModeAlwaysOriginal];
+    }
+    
     self.navigationItem.leftBarButtonItems = [NSArray arrayWithObjects:
-                                              [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"menubtn.png" ] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStyleDone target:self action:@selector(showSelector)],
+                                              [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStyleDone target:self action:@selector(showSelector)],
                                               nil];
     
     self.navigationItem.title = @"Schedule";

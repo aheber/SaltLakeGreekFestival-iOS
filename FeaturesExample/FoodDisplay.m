@@ -8,6 +8,8 @@
 
 #import "FoodDisplay.h"
 
+#define IS_IOS7 (floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1)
+
 @interface FoodDisplay ()
 
 @end
@@ -54,6 +56,13 @@
     [description setText:[food objectAtIndex:4]];
     
     [description sizeToFit];
+    
+    if (IS_IOS7) {
+        UIView *fixbar = [[UIView alloc] init];
+        fixbar.frame = CGRectMake(0, 0, 320, 20);
+        fixbar.backgroundColor = [UIColor blackColor]; 
+        [self.view addSubview:fixbar];
+    }
     
 }
 
