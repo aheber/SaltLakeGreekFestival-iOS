@@ -68,7 +68,22 @@ UIButton *lastButton;
 
 - (void)loadSchedule {
     NSError *myError = nil;
-    TBXML *tbxml = [TBXML newTBXMLWithXMLFile:@"schedule" fileExtension:@"xml" error:&myError];
+    
+    NSData *xmlData;
+    
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
+    NSString *cachesDirectory = [paths objectAtIndex:0];
+    
+    NSString* cachedXML = [cachesDirectory stringByAppendingPathComponent:@"schedule.xml"];
+    BOOL fileExists = [[NSFileManager defaultManager] fileExistsAtPath:cachedXML];
+    if (fileExists){
+        xmlData = [[NSFileManager defaultManager] contentsAtPath:cachedXML];
+    }else{
+        NSString *filePath = [[NSBundle mainBundle] pathForResource:@"schedule" ofType:@"xml"];
+        xmlData = [NSData dataWithContentsOfFile:filePath];
+    }
+    
+    TBXML *tbxml = [TBXML newTBXMLWithXMLData:xmlData error:&myError];
     
     currentDay = [[NSMutableArray alloc] init];
     if (tbxml.rootXMLElement)

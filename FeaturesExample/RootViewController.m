@@ -61,6 +61,7 @@ NSOperationQueue *imageOperationQueue;
     
     [self downloadAds:@"sponsors.xml"];
     [self downloadAds:@"food.xml"];
+    [self downloadAds:@"schedule.xml"];
     [self loadAds];
     [self GeneratePages];
     h = 0;
