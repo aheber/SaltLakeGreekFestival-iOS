@@ -66,18 +66,6 @@ NSOperationQueue *imageOperationQueue;
     h = 0;
     [NSTimer scheduledTimerWithTimeInterval:SCROLL_INT target:self selector:@selector(onTimer) userInfo:nil repeats:YES];
     
-    
-    // Override point for customization after application launch.
-    RootViewController* rootViewController = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
-    rootViewController.panningView = self.panningView;
-    
-    self.navController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    self.navController.navigationBar.tintColor = [UIColor colorWithRed:47/255.0f green:101/255.0f blue:176/255.0f alpha:1];
-    [self addChildViewController:self.navController];
-    
-    self.navController.view.frame = self.choiceView.bounds;
-    [self.choiceView addSubview:self.navController.view];
-    
     ScheduleController* scheduleController = [[ScheduleController alloc] initWithNibName:@"ScheduleController" bundle:nil];
     SelectionController* selectionController = [[SelectionController alloc] initWithNibName:@"SelectionController" bundle:nil];
     
@@ -92,7 +80,12 @@ NSOperationQueue *imageOperationQueue;
     controller.leftSize = 100;
     controller.delegate = self;
     
-    [self.navigationController pushViewController:controller animated:YES];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.navController.navigationBar.tintColor = [UIColor colorWithRed:47/255.0f green:101/255.0f blue:176/255.0f alpha:1];
+    [self addChildViewController:self.navController];
+    
+    self.navController.view.frame = self.choiceView.bounds;
+    [self.choiceView addSubview:self.navController.view];
 }
 
 - (void)viewDidUnload
