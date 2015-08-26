@@ -43,8 +43,6 @@
 		906A94B717C4896900BA1009 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 906A94B617C4896900BA1009 /* TBXML.m */; };
 		90B7189A17BDC25E004977E2 /* InformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B7189817BDC25D004977E2 /* InformationController.m */; };
 		90B7189B17BDC25E004977E2 /* InformationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90B7189917BDC25D004977E2 /* InformationController.xib */; };
-		90E458AD19A0197800DAA8EC /* RunController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90E458AC19A0197800DAA8EC /* RunController.m */; };
-		90E458B119A019BA00DAA8EC /* RunController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90E458B019A019BA00DAA8EC /* RunController.xib */; };
 		90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */ = {isa = PBXBuildFile; fileRef = 90E863BB17C47E7D001AAC7F /* schedule.xml */; };
 		912F996E17CB250B00096555 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996C17CB250B00096555 /* blueButton.png */; };
 		912F996F17CB250B00096555 /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 912F996D17CB250B00096555 /* blueButton@2x.png */; };
@@ -85,10 +83,8 @@
 		917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79817C710D9001CE2E9 /* Default@2x.png */; };
 		917DD79B17C710EC001CE2E9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD79417C7108C001CE2E9 /* Default.png */; };
 		917DD7AA17C9888B001CE2E9 /* button_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 917DD7A817C9888B001CE2E9 /* button_back.png */; };
-		918CEDC919A1C56D00F72A59 /* 5kLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */; };
 		91D6F37A19A6F2AB00B1A231 /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37619A6F2AB00B1A231 /* coupon.png */; };
 		91D6F37B19A6F2AB00B1A231 /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37719A6F2AB00B1A231 /* food.png */; };
-		91D6F37C19A6F2AB00B1A231 /* race.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37819A6F2AB00B1A231 /* race.png */; };
 		91D6F37D19A6F2AB00B1A231 /* schedule.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37919A6F2AB00B1A231 /* schedule.png */; };
 		91D6F37F19A6FD0000B1A231 /* apple-retina-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F37E19A6FD0000B1A231 /* apple-retina-120.png */; };
 		91D6F38319A6FDF600B1A231 /* apple-retina-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 91D6F38019A6FDF600B1A231 /* apple-retina-29.png */; };
@@ -155,9 +151,6 @@
 		90B7189717BDC25D004977E2 /* InformationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationController.h; sourceTree = "<group>"; };
 		90B7189817BDC25D004977E2 /* InformationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationController.m; sourceTree = "<group>"; };
 		90B7189917BDC25D004977E2 /* InformationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InformationController.xib; sourceTree = "<group>"; };
-		90E458AB19A0197800DAA8EC /* RunController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunController.h; sourceTree = "<group>"; };
-		90E458AC19A0197800DAA8EC /* RunController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunController.m; sourceTree = "<group>"; };
-		90E458B019A019BA00DAA8EC /* RunController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RunController.xib; path = ../RunController.xib; sourceTree = "<group>"; };
 		90E863BB17C47E7D001AAC7F /* schedule.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schedule.xml; sourceTree = "<group>"; };
 		912F996C17CB250B00096555 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		912F996D17CB250B00096555 /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
@@ -199,10 +192,8 @@
 		917DD79617C710AC001CE2E9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		917DD79817C710D9001CE2E9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		917DD7A817C9888B001CE2E9 /* button_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_back.png; sourceTree = "<group>"; };
-		918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5kLogo.jpg; sourceTree = "<group>"; };
 		91D6F37619A6F2AB00B1A231 /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
 		91D6F37719A6F2AB00B1A231 /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
-		91D6F37819A6F2AB00B1A231 /* race.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = race.png; sourceTree = "<group>"; };
 		91D6F37919A6F2AB00B1A231 /* schedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schedule.png; sourceTree = "<group>"; };
 		91D6F37E19A6FD0000B1A231 /* apple-retina-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-120.png"; sourceTree = "<group>"; };
 		91D6F38019A6FDF600B1A231 /* apple-retina-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-retina-29.png"; sourceTree = "<group>"; };
@@ -294,9 +285,7 @@
 			children = (
 				91D6F37619A6F2AB00B1A231 /* coupon.png */,
 				91D6F37719A6F2AB00B1A231 /* food.png */,
-				91D6F37819A6F2AB00B1A231 /* race.png */,
 				91D6F37919A6F2AB00B1A231 /* schedule.png */,
-				918CEDC819A1C56C00F72A59 /* 5kLogo.jpg */,
 				912F998717CDAA8200096555 /* chicken.png */,
 				912F998817CDAA8200096555 /* diples.png */,
 				912F998917CDAA8200096555 /* flogeres.png */,
@@ -449,9 +438,6 @@
 		E2C8E5C21497FDAE00560D23 /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				90E458AB19A0197800DAA8EC /* RunController.h */,
-				90E458AC19A0197800DAA8EC /* RunController.m */,
-				90E458B019A019BA00DAA8EC /* RunController.xib */,
 				E2955F8714B7D14F003DDB4E /* MapController.h */,
 				E2955F8814B7D14F003DDB4E /* MapController.m */,
 				E2955F8914B7D14F003DDB4E /* MapController.xib */,
@@ -556,13 +542,11 @@
 				90E863BC17C47E7D001AAC7F /* schedule.xml in Resources */,
 				917DD78217C5E53B001CE2E9 /* greekkey.png in Resources */,
 				917DD78317C5E53B001CE2E9 /* greekkey@2x.png in Resources */,
-				90E458B119A019BA00DAA8EC /* RunController.xib in Resources */,
 				917DD78617C6F271001CE2E9 /* navbar_bg.png in Resources */,
 				917DD78717C6F271001CE2E9 /* navbar_bg@2x.png in Resources */,
 				917DD78C17C6FEC8001CE2E9 /* menubtn.png in Resources */,
 				917DD78D17C6FEC8001CE2E9 /* menubtn@2x.png in Resources */,
 				917DD79317C70815001CE2E9 /* button_normal.png in Resources */,
-				918CEDC919A1C56D00F72A59 /* 5kLogo.jpg in Resources */,
 				91D6F37A19A6F2AB00B1A231 /* coupon.png in Resources */,
 				917DD79717C710AC001CE2E9 /* Default-568h@2x.png in Resources */,
 				917DD79A17C710E2001CE2E9 /* Default@2x.png in Resources */,
@@ -575,7 +559,6 @@
 				903A43D517C70A4E0048B218 /* fries.png in Resources */,
 				91D6F38419A6FDF600B1A231 /* apple-retina-58.png in Resources */,
 				903A43D617C70A4E0048B218 /* galatopita.png in Resources */,
-				91D6F37C19A6F2AB00B1A231 /* race.png in Resources */,
 				903A43D717C70A4E0048B218 /* greekkey.png in Resources */,
 				903A43D817C70A4E0048B218 /* gyro.png in Resources */,
 				903A43D917C70A4E0048B218 /* kalamari.png in Resources */,
@@ -629,7 +612,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90E458AD19A0197800DAA8EC /* RunController.m in Sources */,
 				E2C8E5A01497F62B00560D23 /* main.m in Sources */,
 				E2C8E5A41497F62B00560D23 /* AppDelegate.m in Sources */,
 				E2C8E5C61497FDC600560D23 /* FoodController.m in Sources */,

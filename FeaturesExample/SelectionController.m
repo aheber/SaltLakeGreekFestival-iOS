@@ -9,7 +9,6 @@
 #import "MapController.h"
 #import "FoodController.h"
 #import "InformationController.h"
-#import "RunController.h"
 
 @implementation SelectionController
 
@@ -20,7 +19,7 @@
     
     if (fooArray == nil)
     {
-        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon",@"5K/10K Run", nil];
+        fooArray = [NSArray arrayWithObjects: @"Schedule",@"Food",@"Coupon", nil];
     }
     
     return fooArray;
@@ -34,7 +33,7 @@
     if (icoDict == nil)
     {
         // Dictionary to allow different icon filenames than the row text. Needed for the 5K/10K name
-        icoDict = [NSDictionary dictionaryWithObjectsAndKeys:@"schedule",@"Schedule",@"food",@"Food",@"coupon",@"Coupon",@"race",@"5K/10K Run", nil];
+        icoDict = [NSDictionary dictionaryWithObjectsAndKeys:@"schedule",@"Schedule",@"food",@"Food",@"coupon",@"Coupon", nil];
     }
     
     return icoDict;
@@ -146,10 +145,6 @@
         case 2:
             self.viewDeckController.centerController = [[InformationController alloc] initWithNibName:@"InformationController" bundle:nil];
             self.navigationItem.title = @"Coupon";
-            break;
-        case 3:
-            self.viewDeckController.centerController = [[RunController alloc] initWithNibName:@"RunController" bundle:nil];
-            self.navigationItem.title = @"5K/10K Run";
             break;
     }
     [self showSelector];
